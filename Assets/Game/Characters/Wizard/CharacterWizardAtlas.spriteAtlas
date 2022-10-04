@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CharacterWizardAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 9f62e6d74481cf44fbc852311600360f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 7131110004d34ae4fa622b0f3acfac93, type: 3}
+  - {fileID: 21300000, guid: f313e51018fcca94aae779010b37ef39, type: 3}
+  - {fileID: 21300000, guid: 2fec6030e2ae4eb448969b45ac7a7255, type: 3}
+  - {fileID: 21300000, guid: 8b9c2711d2113bc48ae1a0e8bd1da0bd, type: 3}
+  - {fileID: 21300000, guid: 8b98bc115d630ff469a6afeef7e76163, type: 3}
+  - {fileID: 21300000, guid: 1873843153f30684f98e8b26c35cdf5f, type: 3}
+  - {fileID: 21300000, guid: 984ffc4108f3f56458d79e2b66e845c1, type: 3}
+  - {fileID: 21300000, guid: d4795371b0c42ac4ab717da3a9f0a075, type: 3}
+  - {fileID: 21300000, guid: 41857a714f008694a9b258c843a1c04b, type: 3}
+  - {fileID: 21300000, guid: db75dec1ce4d65046baa91e6d80efb65, type: 3}
+  - {fileID: 21300000, guid: 124db64255e0519478c545d6b10d4b83, type: 3}
+  - {fileID: 21300000, guid: bab63c62fbeb86044b1040893b26868e, type: 3}
+  - {fileID: 21300000, guid: 2a3af7821e742f14589d257a47cd411c, type: 3}
+  - {fileID: 21300000, guid: 5c5de7f231a1ca3448c28d4841e46502, type: 3}
+  - {fileID: 21300000, guid: 4822ef3330757fa44a7ba44504920bb7, type: 3}
+  - {fileID: 21300000, guid: 8ab44f836613be446a7e561ed223b25a, type: 3}
+  - {fileID: 21300000, guid: d6b94493b1c95024da0d41c1b23cf5b3, type: 3}
+  - {fileID: 21300000, guid: 79e1ee93d0d7abc4bbbc61123d2dcb3f, type: 3}
+  - {fileID: 21300000, guid: 62f005a3e86a0984e945bbdd1960a391, type: 3}
+  - {fileID: 21300000, guid: 61ebf355c753deb4eae635635be33c4a, type: 3}
+  - {fileID: 21300000, guid: 9bb6a4f576b4ec04e9daf25d3453f53a, type: 3}
+  - {fileID: 21300000, guid: 72029616f13505c4cabecf27c17798c5, type: 3}
+  - {fileID: 21300000, guid: 969b1b16bbe7c634b880dfcd4301bef8, type: 3}
+  - {fileID: 21300000, guid: 2b189c477a7df9743a69159973fba1db, type: 3}
+  - {fileID: 21300000, guid: 9b9ac5b71396943499ac81bfc387eecf, type: 3}
+  - {fileID: 21300000, guid: 65a771f716cd3404582cec7259a471e8, type: 3}
+  - {fileID: 21300000, guid: e8b4b12805ab5ef4b9040ce862707551, type: 3}
+  - {fileID: 21300000, guid: d75ae348d97cbe54d93cb0cf2bc401a1, type: 3}
+  - {fileID: 21300000, guid: 8131347804eb87b4f85a2e190db1595d, type: 3}
+  - {fileID: 21300000, guid: 67976fe8a831a1b4da2bcc5521688713, type: 3}
+  - {fileID: 21300000, guid: 7aea603903c91fe40a413891e14900c9, type: 3}
+  - {fileID: 21300000, guid: 0823f1497a7b70a49b0ded7f0d0858c1, type: 3}
+  - {fileID: 21300000, guid: 5e0a2769daed9904e8efee14b2c48190, type: 3}
+  - {fileID: 21300000, guid: 3282d0b94f4ebbe4084da5bb3605ed22, type: 3}
+  - {fileID: 21300000, guid: 875f5ab92c6d1c04fa315ba26abf8cec, type: 3}
+  - {fileID: 21300000, guid: 91b3e3d90c487d947b5e833c08d408cc, type: 3}
+  - {fileID: 21300000, guid: 5fdba83abb48d704f82bd1fe13d92829, type: 3}
+  - {fileID: 21300000, guid: 30817b4a91dff1a4f882698d786d3f53, type: 3}
+  - {fileID: 21300000, guid: 2fb36e4a896a57e4c9b61ece79657229, type: 3}
+  - {fileID: 21300000, guid: 6ee9e0eab752b1e4e98c779595783bc1, type: 3}
+  - {fileID: 21300000, guid: 51a3ae4b4310a974cb5cf29da6a9cc16, type: 3}
+  - {fileID: 21300000, guid: 981d4f5b3d6185c43b0494bf3f2b4e61, type: 3}
+  - {fileID: 21300000, guid: 9fd8126b01dab024698da2c60c6fdcd4, type: 3}
+  - {fileID: 21300000, guid: 23fbaf6b6100a854e93ae6e5cb7d0360, type: 3}
+  - {fileID: 21300000, guid: 46a4ecec83f91a849943a472a220b40c, type: 3}
+  - {fileID: 21300000, guid: e0892a4dcf23f77419cb9e3eaa7b58da, type: 3}
+  - {fileID: 21300000, guid: 7063fa8d523abed4b9628a8077360d61, type: 3}
+  - {fileID: 21300000, guid: 5741959d52e06e44cac43e36de8fa0f6, type: 3}
+  - {fileID: 21300000, guid: b7e4959d56347fa4ba5ed0c5a2c52716, type: 3}
+  - {fileID: 21300000, guid: 714491cd1bc747c40824ac21152d6423, type: 3}
+  - {fileID: 21300000, guid: 2e9a6f4e71306014fa76311cb4582e2b, type: 3}
+  - {fileID: 21300000, guid: e34e0c5e72044d64fbaa516f46eecdaf, type: 3}
+  - {fileID: 21300000, guid: 042b228f238b242488d2dae39d1c00b8, type: 3}
+  - {fileID: 21300000, guid: 85dcb1ff304435745828d684fab10c60, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - CrouchStealUR_1
+  - MouthR_5
+  - EatVomUR_2
+  - EatVomUR_1
+  - IdleUR_1
+  - GunUR_0
+  - MouthR_2
+  - MouthR_1
+  - IdleUR_8
+  - IdleD_8
+  - IdleD_3
+  - MouthR_6
+  - CrouchStealUR_0
+  - IdleR_8
+  - IdleR_5
+  - MouthR_0
+  - MouthR_3
+  - IdleD_1
+  - EatVomUR_3
+  - IdleR_0
+  - SackD_0
+  - IdleR_1
+  - IdleUR_4
+  - IdleD_0
+  - Shadow_0
+  - IdleR_7
+  - WizHidden
+  - IdleUR_9
+  - IdleD_2
+  - IdleR_6
+  - IdleR_4
+  - IdleD_6
+  - SitL_0
+  - IdleD_5
+  - IdleR_3
+  - GunR_0
+  - EatVomUR_0
+  - MouthR_4
+  - IdleUR_5
+  - IdleR_2
+  - EatVomUR_4
+  - IdleUR_6
+  - SackR_0
+  - EatVomUR_6
+  - IdleUR_3
+  - IdleUR_7
+  - IdleUR_0
+  - IdleD_7
+  - IdleD_4
+  - SitD_0
+  - SitR_0
+  - EatVomUR_5
+  - Sit_0
+  - IdleUR_2
+  m_RenderDataMap: {}
+  m_Tag: CharacterWizardAtlas
+  m_IsVariant: 0

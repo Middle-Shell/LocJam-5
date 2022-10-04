@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CharacterPrinceAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: e0b30ef1e982d3940b77aa58e17eefcd, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b9eb2f2026b1c2144b0cce1ed445a927, type: 3}
+  - {fileID: 21300000, guid: dbb54101e39414f4a8bfceadbb85e325, type: 3}
+  - {fileID: 21300000, guid: b418cc11ae040db4793910a02da9b3f3, type: 3}
+  - {fileID: 21300000, guid: b3db7b212c86983408af706706d416cd, type: 3}
+  - {fileID: 21300000, guid: 8395bf210378033479c95b52217c5b7a, type: 3}
+  - {fileID: 21300000, guid: bbefc6515f7908a408c9bcb5300221db, type: 3}
+  - {fileID: 21300000, guid: 09a65c713b63adc4999a68f589bceb91, type: 3}
+  - {fileID: 21300000, guid: adbd6f811ec94b54f9c65bc89c140b80, type: 3}
+  - {fileID: 21300000, guid: 4393e4e192c509944acc3342ad7c46cd, type: 3}
+  - {fileID: 21300000, guid: 74a09ce15dd15ae4bbc646362d5a9afe, type: 3}
+  - {fileID: 21300000, guid: d0db2c025d1d70249be468069573a577, type: 3}
+  - {fileID: 21300000, guid: 7fcc6f7243a17ca4cb38b76046630ca6, type: 3}
+  - {fileID: 21300000, guid: b2908392d18408a4da4a32f2452c46c1, type: 3}
+  - {fileID: 21300000, guid: 6a2b05034dc09ce4dbb4df6c67d8ad93, type: 3}
+  - {fileID: 21300000, guid: 9d7b7e13994769f4396d226b91efbebb, type: 3}
+  - {fileID: 21300000, guid: e51c0053a6aa7594582a5ed0ea1687d9, type: 3}
+  - {fileID: 21300000, guid: d6ebce638c0a4d7449ea9d3360c75686, type: 3}
+  - {fileID: 21300000, guid: 5db48d24767fbf64d94c64193f3099e1, type: 3}
+  - {fileID: 21300000, guid: fc26c1547eff6294c916e0889eb341da, type: 3}
+  - {fileID: 21300000, guid: 5393298422b67a14b9e93c08a2e89532, type: 3}
+  - {fileID: 21300000, guid: 724676948495f4b45ab44b81426d57bd, type: 3}
+  - {fileID: 21300000, guid: 510c7f9415878cc48907c2b4cbdc928f, type: 3}
+  - {fileID: 21300000, guid: 7f10c5d4a604bed4baf2ed230a999b3b, type: 3}
+  - {fileID: 21300000, guid: f3b109153c35d354a97403aec1d40594, type: 3}
+  - {fileID: 21300000, guid: 0432282508e7ff549a44e8eb7a8a5ea4, type: 3}
+  - {fileID: 21300000, guid: 4211c1754bb95344d81ae5f6eeb30843, type: 3}
+  - {fileID: 21300000, guid: 61440195b1c437b4eac9a9d4ea169b9d, type: 3}
+  - {fileID: 21300000, guid: a7946b95925d6cf488cc59642abb905a, type: 3}
+  - {fileID: 21300000, guid: 5fa4c636e0348dd4f9a299a66faf9fef, type: 3}
+  - {fileID: 21300000, guid: 8a1b8b66080bbeb4292b9620349cba0d, type: 3}
+  - {fileID: 21300000, guid: a00613c6d4d307f4fa3e0710c57ff000, type: 3}
+  - {fileID: 21300000, guid: a3892fc6f81ed9646857bd35a3ab6420, type: 3}
+  - {fileID: 21300000, guid: a1844ef6370cf77499799e947ab63fce, type: 3}
+  - {fileID: 21300000, guid: deae15570ba901d44b21d071c8cf2d1d, type: 3}
+  - {fileID: 21300000, guid: 980cdce7f4d3de948b2daee757f2cef8, type: 3}
+  - {fileID: 21300000, guid: 42043cf74cf578a42996ac641ebe59fd, type: 3}
+  - {fileID: 21300000, guid: 980f5628febc6564189d574fe7c4ce9b, type: 3}
+  - {fileID: 21300000, guid: 8651eb48113c05546a958e332c42c135, type: 3}
+  - {fileID: 21300000, guid: ecfbab681515897468e3a3383ece3a85, type: 3}
+  - {fileID: 21300000, guid: de08887818297b84d821de74853b3043, type: 3}
+  - {fileID: 21300000, guid: 171850f82d4ad2547a5c3ce19a0ae122, type: 3}
+  - {fileID: 21300000, guid: 03a1230947ed74e42934fc9cc99e981b, type: 3}
+  - {fileID: 21300000, guid: 8e067a297c63ded4da1da5e8331e8427, type: 3}
+  - {fileID: 21300000, guid: 95e0bf4939fe20441811867d8e97747d, type: 3}
+  - {fileID: 21300000, guid: 735be1598ab73334ea6db21c26432c12, type: 3}
+  - {fileID: 21300000, guid: 2e0308c91047fab4594acc20d6436b6c, type: 3}
+  - {fileID: 21300000, guid: efcf54f973d0a1340b61e793694de869, type: 3}
+  - {fileID: 21300000, guid: 435cbaaacb2d6b34e9ca5a96f5445441, type: 3}
+  - {fileID: 21300000, guid: 174ab15b53b274949b3c3266a6f29cfe, type: 3}
+  - {fileID: 21300000, guid: 630ced5b1fa8c3f448a67ffecd8e51bb, type: 3}
+  - {fileID: 21300000, guid: e222e17b32aea3540b209ed3c3601ecf, type: 3}
+  - {fileID: 21300000, guid: 24a1553cc26ba72479d29b6f7d2389be, type: 3}
+  - {fileID: 21300000, guid: fe8054ec24a2eb545aeb84d472650d3e, type: 3}
+  - {fileID: 21300000, guid: 17526aecd68d87a458809d21d4ad3ca7, type: 3}
+  - {fileID: 21300000, guid: 8384ab4d2e77d8f4388e89d9283037f4, type: 3}
+  - {fileID: 21300000, guid: 0612c44ec88dcb249ba8d1d01d2524ac, type: 3}
+  - {fileID: 21300000, guid: 50c8194ed3afdea42824cf7712f220f5, type: 3}
+  - {fileID: 21300000, guid: fb9eb76e0f4c65a4aa3808d9d5003596, type: 3}
+  - {fileID: 21300000, guid: 167b90beaeae25c4e86e53cd74e78ea0, type: 3}
+  - {fileID: 21300000, guid: 42740a8fd5ad0e04eb0c7e2db32dc4ab, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - PunchUR_0
+  - MouthR_4
+  - IdleUR_0
+  - WalkR_4
+  - WalkR_0
+  - CrouchUR_0
+  - PunchUR_2
+  - JumpR_12
+  - Idle3R_0
+  - WalkR_1
+  - SpellR_0
+  - PunchUR_1
+  - Shadow_0
+  - JumpR_1
+  - WalkR_7
+  - WalkR_2
+  - PunchUR_3
+  - JumpR_8
+  - Hidden
+  - DoorbellUR_5
+  - MouthR_3
+  - MouthR_2
+  - JumpR_6
+  - JumpR_4
+  - JumpR_2
+  - JumpR_9
+  - DoorbellUR_6
+  - SackR_0
+  - DoorbellUR_8
+  - JumpR_11
+  - PunchUR_9
+  - WalkR_5
+  - DoorbellUR_9
+  - MouthR_6
+  - WalkR_3
+  - JumpR_0
+  - JumpR_7
+  - IdleR_0
+  - DoorbellUR_3
+  - PunchUR_5
+  - JumpR_5
+  - WalkR_6
+  - JumpR_3
+  - SpellR_2
+  - DoorbellUR_10
+  - SpellR_1
+  - DoorbellUR_4
+  - DoorbellUR_1
+  - PunchUR_4
+  - PunchUR_6
+  - PunchUR_8
+  - MouthR_1
+  - DoorbellUR_2
+  - PunchUR_7
+  - Idle2R_0
+  - JumpR_10
+  - MouthR_0
+  - DoorbellUR_7
+  - MouthR_5
+  - DoorbellUR_0
+  m_RenderDataMap: {}
+  m_Tag: CharacterPrinceAtlas
+  m_IsVariant: 0

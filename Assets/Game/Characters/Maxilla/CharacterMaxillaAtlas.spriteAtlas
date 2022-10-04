@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CharacterMaxillaAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 35c561e9b5fe90743a0df6df3f8d56da, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: caa270429f1040b4980afff32d966eb8, type: 3}
+  - {fileID: 21300000, guid: 98a6de62c3a1315469732c70ff4e533f, type: 3}
+  - {fileID: 21300000, guid: dd71faa3f3246834090e879cdc73573c, type: 3}
+  - {fileID: 21300000, guid: 3a7adbf52c67f1849bc9f13a2562f414, type: 3}
+  - {fileID: 21300000, guid: bc18f656a6c70c241a6c40fdc1ea7631, type: 3}
+  - {fileID: 21300000, guid: b6e78ec6403e11c4d94abc5f3d514bc1, type: 3}
+  - {fileID: 21300000, guid: a561fac783584bf4682e82394459fe2a, type: 3}
+  - {fileID: 21300000, guid: c3d8595833099ef47acf5bb3dceb30d1, type: 3}
+  - {fileID: 21300000, guid: c50bb92aba79f1e4098cb748b9498845, type: 3}
+  - {fileID: 21300000, guid: d8339c2a41d5de64098ebe363605b13e, type: 3}
+  - {fileID: 21300000, guid: ea35e3db072608f4a9aeb29abe72c0a1, type: 3}
+  - {fileID: 21300000, guid: 2f7968ebfad30ea4db8ef90be215e745, type: 3}
+  - {fileID: 21300000, guid: d1c0894eb3d0621428ea8d42bb3c73ae, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - IdleD_0
+  - MouthR_0
+  - MouthR_3
+  - MouthR_5
+  - MouthR_2
+  - WaitR_0
+  - MouthR_6
+  - WaitD_0
+  - MouthR_4
+  - IdleR_0
+  - PhoneR_0
+  - MouthR_1
+  - PhoneD_0
+  m_RenderDataMap: {}
+  m_Tag: CharacterMaxillaAtlas
+  m_IsVariant: 0

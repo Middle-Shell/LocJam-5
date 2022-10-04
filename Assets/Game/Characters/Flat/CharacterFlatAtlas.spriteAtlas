@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CharacterFlatAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: faf5359f5a28db24eadceaa9a0c523d8, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ccfb4381082b61642a758d71e03d23ad, type: 3}
+  - {fileID: 21300000, guid: fb1396e2762f2e64ca9c2150de512310, type: 3}
+  - {fileID: 21300000, guid: 6409d5b4064b4cb45898fee3bdc45125, type: 3}
+  - {fileID: 21300000, guid: 6e1fbec4b75f60141af2b93eeeb9031b, type: 3}
+  - {fileID: 21300000, guid: d0a2cf16d211edc4aa84f07187693dd7, type: 3}
+  - {fileID: 21300000, guid: 11b0c4a715272a0459d920023720b238, type: 3}
+  - {fileID: 21300000, guid: 32afeab86beadf145b9aa26c9ae758b5, type: 3}
+  - {fileID: 21300000, guid: 3f1c2ac8799ccbc4eb212393357b4fb7, type: 3}
+  - {fileID: 21300000, guid: 085eef6946bd3bb4b8a10619db82dfce, type: 3}
+  - {fileID: 21300000, guid: 506715c957f5faa418223cf386d763dd, type: 3}
+  - {fileID: 21300000, guid: c66e2b1a0812f394f9671787845b7a0e, type: 3}
+  - {fileID: 21300000, guid: f35e84ad0f20f314786703a9af617465, type: 3}
+  - {fileID: 21300000, guid: 03319bae3005d80408d2e6151a5bd65a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - MouthR_3
+  - MouthR_6
+  - ChillR_2
+  - DeadR_0
+  - IdleR_0
+  - MouthR_2
+  - MouthR_5
+  - MouthR_1
+  - MouthR_4
+  - ChillR_1
+  - ChillR_0
+  - ChillR_3
+  - MouthR_0
+  m_RenderDataMap: {}
+  m_Tag: CharacterFlatAtlas
+  m_IsVariant: 0

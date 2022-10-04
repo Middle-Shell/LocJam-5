@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CharacterMariaAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: b3919d359e36942418fd96e12f2e4675, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 54404600a5cf8d048aba5e24d0a14c47, type: 3}
+  - {fileID: 21300000, guid: 18c602304cbaf8846be45d330d3c6b82, type: 3}
+  - {fileID: 21300000, guid: 1cc0f840311090e4d837bd3975ccf570, type: 3}
+  - {fileID: 21300000, guid: 2a06f4501654c304b8f829a3627ae8c0, type: 3}
+  - {fileID: 21300000, guid: 835688b0e4592c94f950543a9fd8a740, type: 3}
+  - {fileID: 21300000, guid: 339cc651c028858488222d822e190306, type: 3}
+  - {fileID: 21300000, guid: 8777deb1e23b6404b8504770e645da2a, type: 3}
+  - {fileID: 21300000, guid: 3bc08133b52e3214386d3ddf3023df2b, type: 3}
+  - {fileID: 21300000, guid: 0da272c387b45774aa8517bec391933a, type: 3}
+  - {fileID: 21300000, guid: 612d2f1476af7bd468dee8dfdc5e2816, type: 3}
+  - {fileID: 21300000, guid: e328a784a4d75ed41a650b48cf06dc6b, type: 3}
+  - {fileID: 21300000, guid: 33b1d3f48be43d44aac08b532b7f08ad, type: 3}
+  - {fileID: 21300000, guid: b0124e86002b10244a7490cdc55b21c0, type: 3}
+  - {fileID: 21300000, guid: f7606c17c28c6bd4ba07a46dd045f14f, type: 3}
+  - {fileID: 21300000, guid: 41f26927b5aefab4faee29c182832c20, type: 3}
+  - {fileID: 21300000, guid: f458257786a8d3049b263e63acc15fba, type: 3}
+  - {fileID: 21300000, guid: 65712f97ad7b1eb468f2e0b6845b7b85, type: 3}
+  - {fileID: 21300000, guid: 323f18a7bf9e7a647ab790ef0da4b3e9, type: 3}
+  - {fileID: 21300000, guid: be0640c708ae4e44bac41cc46ab4f3b8, type: 3}
+  - {fileID: 21300000, guid: fb0432e76b2984943bf44662aa46ee33, type: 3}
+  - {fileID: 21300000, guid: 684d9629135057a4c87a810f006914cf, type: 3}
+  - {fileID: 21300000, guid: c39662a99b35a004f8a2e3fd47d6a2d3, type: 3}
+  - {fileID: 21300000, guid: ce06ba9af10751047ad905a63ab6d133, type: 3}
+  - {fileID: 21300000, guid: fde8543b2499d594e8cacb6a9c902004, type: 3}
+  - {fileID: 21300000, guid: 85554d3ba82591d43b7c413ed59881ba, type: 3}
+  - {fileID: 21300000, guid: 1204a6db0dbdad74fb446a33f1607823, type: 3}
+  - {fileID: 21300000, guid: 5345e07c05693714785849c19e311132, type: 3}
+  - {fileID: 21300000, guid: fed7e07cb0324af4e85adf9a59c44585, type: 3}
+  - {fileID: 21300000, guid: b838abec0acb1bf4ea1c52645f74199b, type: 3}
+  - {fileID: 21300000, guid: 7b7efa9dee55c524681ca5713d95d9ff, type: 3}
+  - {fileID: 21300000, guid: 9ac73cddee7040b409e339ece2b93268, type: 3}
+  - {fileID: 21300000, guid: d420460e247f5d54884d6511c399c111, type: 3}
+  - {fileID: 21300000, guid: 3765252e275d4e24ea9d1feac5208bb3, type: 3}
+  - {fileID: 21300000, guid: c60a7b3ee9378ab48a2d8e27e73a102c, type: 3}
+  - {fileID: 21300000, guid: f65717beb6dda154b96de9907123ea30, type: 3}
+  - {fileID: 21300000, guid: 56ac5aafb1fc940438df5f39e23374be, type: 3}
+  - {fileID: 21300000, guid: 5f31b7ef35b1ed7438a87ca9eb6334de, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - VomitL_5
+  - VomitL_6
+  - VomitL_13
+  - VomitL_25
+  - MouthR_0
+  - VomitL_8
+  - VomitL_11
+  - VomitL_23
+  - TalkR_0
+  - VomitL_2
+  - VomitL_16
+  - VomitL_1
+  - TalkR_1
+  - VomitL_19
+  - MouthR_4
+  - MouthR_5
+  - VomitL_20
+  - VomitL_18
+  - VomitL_9
+  - VomitL_17
+  - MouthR_2
+  - VomitL_22
+  - VomitL_12
+  - VomitL_10
+  - VomitL_14
+  - VomitL_21
+  - VomitL_4
+  - MouthR_3
+  - MouthR_6
+  - VomitL_0
+  - TalkR_2
+  - VomitL_3
+  - IdleR_0
+  - MouthR_1
+  - VomitL_24
+  - VomitL_15
+  - VomitL_7
+  m_RenderDataMap: {}
+  m_Tag: CharacterMariaAtlas
+  m_IsVariant: 0

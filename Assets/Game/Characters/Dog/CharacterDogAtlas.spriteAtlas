@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CharacterDogAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 0ba3163f17299f543b22d731a0feefdd, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: bfe5a98095b308f4f9ddc376debe5b90, type: 3}
+  - {fileID: 21300000, guid: f94f5a119e3765348b2da978c04dc0cd, type: 3}
+  - {fileID: 21300000, guid: cc83522167fab1940af3817ef3e85f95, type: 3}
+  - {fileID: 21300000, guid: 56d57e41a924a474da678f40f8bfb26f, type: 3}
+  - {fileID: 21300000, guid: b070b622656e20c4faf9219725029ccf, type: 3}
+  - {fileID: 21300000, guid: 20622742b76800e47a3ef7f1b6c8a457, type: 3}
+  - {fileID: 21300000, guid: 4255f413d58d144479d1922f2e9aa398, type: 3}
+  - {fileID: 21300000, guid: e2fb43a3460447e4dabca2fb5c01fc25, type: 3}
+  - {fileID: 21300000, guid: 1ccfbee322220f34fb3aef28f26dff7f, type: 3}
+  - {fileID: 21300000, guid: b70fc284a2f013245abf325e7314e563, type: 3}
+  - {fileID: 21300000, guid: 455d57a59fb60dc409a40abe6c757386, type: 3}
+  - {fileID: 21300000, guid: 8ca86c46be9665a469186da38014b312, type: 3}
+  - {fileID: 21300000, guid: 3d87d4973a512e7418c65f3f27f3eb78, type: 3}
+  - {fileID: 21300000, guid: 2b014be7d2bb32c48b790276f82bbba4, type: 3}
+  - {fileID: 21300000, guid: 3a82d02829ac97a469dc468e83a9ecc3, type: 3}
+  - {fileID: 21300000, guid: 0e3d1428a7f023e44b76848b03875ac5, type: 3}
+  - {fileID: 21300000, guid: 51b95d8810cbbd54db94ea4df9630d39, type: 3}
+  - {fileID: 21300000, guid: 52f9a40a28dc3b843b861de69360d238, type: 3}
+  - {fileID: 21300000, guid: cdad609ac90897c49a48fb5b8bffe2e7, type: 3}
+  - {fileID: 21300000, guid: be16131bfba15764da87d765659d39ae, type: 3}
+  - {fileID: 21300000, guid: 7663d02be0b595947b780926850b2a41, type: 3}
+  - {fileID: 21300000, guid: 72e18d3b5d1c83b4d9c80a6c1fb29581, type: 3}
+  - {fileID: 21300000, guid: e252e34b3145a2f46a4e5cd2b7d7d09e, type: 3}
+  - {fileID: 21300000, guid: f2db8d6b4e4ded64c91a10fc7b4fd4a1, type: 3}
+  - {fileID: 21300000, guid: ed0830ab5de7357448970515036d787e, type: 3}
+  - {fileID: 21300000, guid: 6bce8a1d6c38532498eb3f08b215c5c8, type: 3}
+  - {fileID: 21300000, guid: d2eb1f8defb37854493f1f1e495f2fec, type: 3}
+  - {fileID: 21300000, guid: e05971bd7fddb3a44b77ceb5c3c3288a, type: 3}
+  - {fileID: 21300000, guid: de8fe4cdd662c0248bc1483982fe7196, type: 3}
+  - {fileID: 21300000, guid: f7e0c8cd87397854283c1bd53432861b, type: 3}
+  - {fileID: 21300000, guid: 2489738ec3f1bbe4b9a1733a81c2a409, type: 3}
+  - {fileID: 21300000, guid: 1a5d2b8e8afb0d245b509cd6379c8877, type: 3}
+  - {fileID: 21300000, guid: 6009de9e72c7b064a9326b1ecc74764c, type: 3}
+  - {fileID: 21300000, guid: 53e1c9de77398e240be6432ffe83114a, type: 3}
+  - {fileID: 21300000, guid: f587ea0fed144bb4d9d49e6ccb91b052, type: 3}
+  - {fileID: 21300000, guid: e33223ff91d68f6439eb7b2b38a7b759, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - VomitR_12
+  - VomitR_7
+  - VomitR_14
+  - IdleR_0
+  - VomitR_5
+  - WalkR_3
+  - VomitR_21
+  - VomitR_10
+  - WalkR_4
+  - EmptyWalkR_4
+  - WalkR_0
+  - EmptyWalkR_2
+  - LickR_0
+  - VomitR_1
+  - VomitR_0
+  - VomitR_4
+  - VomitR_2
+  - VomitR_20
+  - VomitR_15
+  - EmptyR_0
+  - VomitR_6
+  - EmptyWalkR_1
+  - VomitR_8
+  - VomitR_13
+  - WalkR_1
+  - EmptyWalkR_3
+  - VomitR_18
+  - VomitR_17
+  - WalkR_2
+  - VomitR_9
+  - VomitR_19
+  - LickR_1
+  - VomitR_3
+  - VomitR_16
+  - EmptyWalkR_0
+  - VomitR_11
+  m_RenderDataMap: {}
+  m_Tag: CharacterDogAtlas
+  m_IsVariant: 0

@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RoomSkullAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 9d9edd72acd8f9e43a70dc4f346868ee, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: c7f77f90ed2e2d44e8fd2e54b959fde2, type: 3}
+  - {fileID: 21300000, guid: c5b830a0d37d74742924896d2bf603c6, type: 3}
+  - {fileID: 21300000, guid: 1b33bee0cb2d17842b4e5bd6c0133941, type: 3}
+  - {fileID: 21300000, guid: 926e592198e52b9418bfcc0fe99f117a, type: 3}
+  - {fileID: 21300000, guid: a72d5191e4fb9c64197510a495765434, type: 3}
+  - {fileID: 21300000, guid: e9aa8d7278105524387bea39268a037a, type: 3}
+  - {fileID: 21300000, guid: 8ff013c2dc7138246ad5d215bd9774a4, type: 3}
+  - {fileID: 21300000, guid: ee68a493411ab464982bd9aeeb583975, type: 3}
+  - {fileID: 21300000, guid: 04e3d9b46698c714bb6f77ca7e78b587, type: 3}
+  - {fileID: 21300000, guid: 085c711518070c841b4322c59bc54fdc, type: 3}
+  - {fileID: 21300000, guid: 5ad423451df4be042a4f1c14373bc58e, type: 3}
+  - {fileID: 21300000, guid: 844ab9b5d605b12438124f146c77a3c2, type: 3}
+  - {fileID: 21300000, guid: 6d604ac5fb5417748860865eaf3e24fd, type: 3}
+  - {fileID: 21300000, guid: 054f40064e021b3429632c3ecc7baffe, type: 3}
+  - {fileID: 21300000, guid: b3e0610623fda874d94e1771ebcf8b66, type: 3}
+  - {fileID: 21300000, guid: b591752689e431240a03e8400796cce4, type: 3}
+  - {fileID: 21300000, guid: 9c64e0b6cef35954b821867d6df73eec, type: 3}
+  - {fileID: 21300000, guid: f9b2ab37e3544e44f84813fd9ce84799, type: 3}
+  - {fileID: 21300000, guid: ef41dc37e4fc19941a418db84899cf5e, type: 3}
+  - {fileID: 21300000, guid: 056ca54726964c8439706f4a12a9d1a4, type: 3}
+  - {fileID: 21300000, guid: a58a8d08b758dec488f315af9d329e38, type: 3}
+  - {fileID: 21300000, guid: 22d00558ecfe7a740a28b4956bbea5c9, type: 3}
+  - {fileID: 21300000, guid: 011df6b8ca3731b4b91f7c83374da2a2, type: 3}
+  - {fileID: 21300000, guid: 5c546239b61c6fb43b30326cbf95cbc5, type: 3}
+  - {fileID: 21300000, guid: 77da2449814bff44496440652b80179d, type: 3}
+  - {fileID: 21300000, guid: dee51b4995fc536458f97729a54e6419, type: 3}
+  - {fileID: 21300000, guid: 993068996bcd70d4c82054a721f30b6d, type: 3}
+  - {fileID: 21300000, guid: be8966c9b008537449c80236d59f36e5, type: 3}
+  - {fileID: 21300000, guid: ea1870f93f83a8c449b53e0e94db66d1, type: 3}
+  - {fileID: 21300000, guid: 8e1ead0a10b54674d9ceba8520f3c958, type: 3}
+  - {fileID: 21300000, guid: 4c9d148a1bbe6f04abe2315dbecdf632, type: 3}
+  - {fileID: 21300000, guid: b203e9da87c07574ab82a0a847c0478e, type: 3}
+  - {fileID: 21300000, guid: db0ae0ea570e6cd4185b47835fbeac0b, type: 3}
+  - {fileID: 21300000, guid: bf94440be8cb7654ea62a3b1fb63b236, type: 3}
+  - {fileID: 21300000, guid: 1dfd760b87d5c864f917579ef7685a85, type: 3}
+  - {fileID: 21300000, guid: 2db36d1bce615464491201954a8bbe89, type: 3}
+  - {fileID: 21300000, guid: 82dc85ab042156a45b1a8b2a4c2d6541, type: 3}
+  - {fileID: 21300000, guid: 8a3f4dbbe66251c4bb051d487b8656f4, type: 3}
+  - {fileID: 21300000, guid: a94e912cdd1f3734085e617c95d9fb9f, type: 3}
+  - {fileID: 21300000, guid: 9389e53c130f0714ab677ec1ef907aef, type: 3}
+  - {fileID: 21300000, guid: d6aa983c909d669438e73c1811fcf642, type: 3}
+  - {fileID: 21300000, guid: 0df88c3ce466bf6499a5619c5542dde5, type: 3}
+  - {fileID: 21300000, guid: 46b8014cebfe3aa48b838464f1983424, type: 3}
+  - {fileID: 21300000, guid: b696237cb5b89334a94945d52ac16f54, type: 3}
+  - {fileID: 21300000, guid: 45ae8e1dc9b52bb439d431d260cdd73a, type: 3}
+  - {fileID: 21300000, guid: a5f3c37d5a9c81f44b0bb6a4aa4072f3, type: 3}
+  - {fileID: 21300000, guid: fe95cf7d843532b449ddc02b9ac1e3e2, type: 3}
+  - {fileID: 21300000, guid: 0ce38e9dec8ad654fb0b2ed178f4062c, type: 3}
+  - {fileID: 21300000, guid: a13fd8cdaee45db4f952d70bbfa7516f, type: 3}
+  - {fileID: 21300000, guid: bb1f9c5eedf04b44bb2dbdffef6bc3e1, type: 3}
+  - {fileID: 21300000, guid: 2a2c846e657f077418b4f4af3eb9ae6d, type: 3}
+  - {fileID: 21300000, guid: c2c3f29e815e07c44b3fda5c1b93c9df, type: 3}
+  - {fileID: 21300000, guid: 3b2773cea8633b7438ba65794e4a09e8, type: 3}
+  - {fileID: 21300000, guid: 6475330f8795ce447a11c6147ecaee7a, type: 3}
+  - {fileID: 21300000, guid: 84af061f80a08524c963032c886be3a4, type: 3}
+  - {fileID: 21300000, guid: a1ba4d2f864707f4caf61be3f05bc6ae, type: 3}
+  - {fileID: 21300000, guid: f728c48f38e15a248afc260c893d6e27, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Gate_0
+  - FgL_0
+  - GateOpen_11
+  - GateOpen_3
+  - EyeC_2
+  - EyeC_3
+  - EyeA_1
+  - Planet_0
+  - GateOpen_5
+  - DoorbellFall_2
+  - Fg_0
+  - Potion_0
+  - EyeD_3
+  - DoorbellUp_0
+  - GateOpen_12
+  - EyeA_2
+  - DoorbellFall_5
+  - GateOpen_1
+  - GateOpen_7
+  - EyeA_3
+  - FgR_0
+  - EyeC_1
+  - DoorbellFall_0
+  - GateOpen_13
+  - BgE_0
+  - DoorbellFall_4
+  - BgG_0
+  - EyeB_1
+  - DoorbellFall_1
+  - EyeA_0
+  - GateOpen_8
+  - BgC_0
+  - BgF_0
+  - EyeD_0
+  - GateOpen_9
+  - BgD_0
+  - EyeD_2
+  - EyeD_1
+  - BgB_0
+  - EyeC_0
+  - EyeD_4
+  - GateOpen_4
+  - WbA_0
+  - DoorbellFall_3
+  - EyeB_2
+  - EyeC_4
+  - EyeB_4
+  - Spew_0
+  - DoorbellDown_0
+  - EyeA_4
+  - GateOpen_10
+  - GateOpen_6
+  - EyeB_0
+  - EyeB_3
+  - GateOpen_2
+  - BgA_0
+  - GateOpen_0
+  m_RenderDataMap: {}
+  m_Tag: RoomSkullAtlas
+  m_IsVariant: 0

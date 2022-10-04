@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9175575439656961128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6336342755697011117}
+  - component: {fileID: 8530301844934036725}
+  m_Layer: 0
+  m_Name: MeatJumpB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6336342755697011117
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9175575439656961128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8530301844934036725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9175575439656961128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0f23f8c8a71fc149b63985b43cfa47a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_type: 1
+  m_loop: 0
+  m_volume:
+    m_min: 1
+    m_max: 1
+    m_hasMax: 0
+    m_hasValue: 0
+  m_pitch:
+    m_min: 1
+    m_max: 1
+    m_hasMax: 0
+    m_hasValue: 0
+  m_alsoPlay: {fileID: 6920566532121265215, guid: dacff8f5c17b2284f9c3b23353feabe2,
+    type: 3}
+  m_chance: 1
+  m_startDelay:
+    m_min: 0
+    m_max: 0
+    m_hasMax: 0
+    m_hasValue: 0
+  m_noDuplicateTime: 0
+  m_mixerGroup: {fileID: 0}
+  m_reverbPreset: 0
+  m_distortionLevel: 0
+  m_echoFilter: {fileID: 0}
+  m_lowPassFilter: {fileID: 0}
+  m_highPassFilter: {fileID: 0}
+  m_chorusFilter: {fileID: 0}
+  m_sounds:
+  - m_sound: {fileID: 8300000, guid: d4d80ce8ba1f47c43a0407dd3911224c, type: 3}
+    m_weight: 100
+    m_loop: 0
+    m_volume:
+      m_min: 1
+      m_max: 1
+      m_hasMax: 0
+      m_hasValue: 0
+    m_pitch:
+      m_min: 1
+      m_max: 1
+      m_hasMax: 0
+      m_hasValue: 0
+    m_startTime: 0
+    m_endTime: 0
+  - m_sound: {fileID: 8300000, guid: 4f63337ba84292b4f892939b14d44ac4, type: 3}
+    m_weight: 100
+    m_loop: 0
+    m_volume:
+      m_min: 1
+      m_max: 1
+      m_hasMax: 0
+      m_hasValue: 0
+    m_pitch:
+      m_min: 1
+      m_max: 1
+      m_hasMax: 0
+      m_hasValue: 0
+    m_startTime: 0
+    m_endTime: 0
+  - m_sound: {fileID: 8300000, guid: eb04742ca4992544d9c78b7c4b3139d9, type: 3}
+    m_weight: 100
+    m_loop: 0
+    m_volume:
+      m_min: 1
+      m_max: 1
+      m_hasMax: 0
+      m_hasValue: 0
+    m_pitch:
+      m_min: 1
+      m_max: 1
+      m_hasMax: 0
+      m_hasValue: 0
+    m_startTime: 0
+    m_endTime: 0
+  - m_sound: {fileID: 8300000, guid: 6ebf6dbaa114d734498d9c0dc255e3be, type: 3}
+    m_weight: 100
+    m_loop: 0
+    m_volume:
+      m_min: 1
+      m_max: 1
+      m_hasMax: 0
+      m_hasValue: 0
+    m_pitch:
+      m_min: 1
+      m_max: 1
+      m_hasMax: 0
+      m_hasValue: 0
+    m_startTime: 0
+    m_endTime: 0
+  - m_sound: {fileID: 8300000, guid: ec2e20226f81dcd4f993b2baea304e36, type: 3}
+    m_weight: 100
+    m_loop: 0
+    m_volume:
+      m_min: 1
+      m_max: 1
+      m_hasMax: 0
+      m_hasValue: 0
+    m_pitch:
+      m_min: 1
+      m_max: 1
+      m_hasMax: 0
+      m_hasValue: 0
+    m_startTime: 0
+    m_endTime: 0
+  - m_sound: {fileID: 8300000, guid: 1c3a94dcc7a731f469b0ea0d5c1c3f6a, type: 3}
+    m_weight: 100
+    m_loop: 0
+    m_volume:
+      m_min: 1
+      m_max: 1
+      m_hasMax: 0
+      m_hasValue: 0
+    m_pitch:
+      m_min: 1
+      m_max: 1
+      m_hasMax: 0
+      m_hasValue: 0
+    m_startTime: 0
+    m_endTime: 0
+  - m_sound: {fileID: 8300000, guid: 13a0bea81226a2549ab56e59a72623cc, type: 3}
+    m_weight: 100
+    m_loop: 0
+    m_volume:
+      m_min: 1
+      m_max: 1
+      m_hasMax: 0
+      m_hasValue: 0
+    m_pitch:
+      m_min: 1
+      m_max: 1
+      m_hasMax: 0
+      m_hasValue: 0
+    m_startTime: 0
+    m_endTime: 0

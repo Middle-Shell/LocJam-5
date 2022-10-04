@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: InventoryAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 37f6ada2ecf514d43b8058e006148770, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 4e581bd0541996a488945b0eb661641f, type: 3}
+  - {fileID: 21300000, guid: 0fc11fc1153dc6c4a816cb06be14f77a, type: 3}
+  - {fileID: 21300000, guid: 722f4fd242f013f4cb4daee84a8d1f43, type: 3}
+  - {fileID: 21300000, guid: 13cf90045e8a4d142b05859393a85036, type: 3}
+  - {fileID: 21300000, guid: b778ccf444aa8a1438c900cfdcc33254, type: 3}
+  - {fileID: 21300000, guid: 2e0a5926c4c099a438759ec65cb72e96, type: 3}
+  - {fileID: 21300000, guid: 20cce487edc3a0745b4b2e9866fc656d, type: 3}
+  - {fileID: 21300000, guid: 4f1981c75b13ae8459c295b131b5ead6, type: 3}
+  - {fileID: 21300000, guid: 95dc6028a38595d46853ef11f3bdf7a4, type: 3}
+  - {fileID: 21300000, guid: ac6aa82c41bcf2a4aa9e14b221c315d5, type: 3}
+  - {fileID: 21300000, guid: 3e137f0e4af639c45938b6459a82d147, type: 3}
+  - {fileID: 21300000, guid: 3128a95e76c6adf44a7ffde8daa56743, type: 3}
+  - {fileID: 21300000, guid: c9dcd1ee4d1a7094da4d670bca39384b, type: 3}
+  - {fileID: 21300000, guid: bec9100f50172c54091ac95143fda352, type: 3}
+  - {fileID: 21300000, guid: 99ecdb1fe3757fe49a1d56744285f02d, type: 3}
+  - {fileID: 21300000, guid: 4b5072bf223fa344c83e7783128cbcf1, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Lift_0
+  - Levitate_0
+  - Chicken_0
+  - Eat_0
+  - Vomit_0
+  - Mindtrick_0
+  - Hyperdrive_0
+  - Charm_0
+  - Shoot_0
+  - Punch_0
+  - Map_0
+  - Bucket_0
+  - Coins_0
+  - Spellbook_0
+  - Open_0
+  - Steal_0
+  m_RenderDataMap: {}
+  m_Tag: InventoryAtlas
+  m_IsVariant: 0

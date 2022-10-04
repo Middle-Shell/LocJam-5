@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a16e9f9c6db14b418901a66d60f8d1b, type: 3}
+  m_Name: _ImportInventory
+  m_EditorClassIdentifier: 
+  m_animations:
+  - m_name: Map
+    m_firstFrame: 1
+    m_length: 1
+  - m_name: Spellbook
+    m_firstFrame: 2
+    m_length: 1
+  - m_name: Coins
+    m_firstFrame: 3
+    m_length: 1
+  - m_name: Chicken
+    m_firstFrame: 4
+    m_length: 1
+  - m_name: Charm
+    m_firstFrame: 5
+    m_length: 1
+  - m_name: Lift
+    m_firstFrame: 6
+    m_length: 1
+  - m_name: Punch
+    m_firstFrame: 7
+    m_length: 1
+  - m_name: Levitate
+    m_firstFrame: 8
+    m_length: 1
+  - m_name: Open
+    m_firstFrame: 9
+    m_length: 1
+  - m_name: Hyperdrive
+    m_firstFrame: 10
+    m_length: 1
+  - m_name: Shoot
+    m_firstFrame: 11
+    m_length: 1
+  - m_name: Steal
+    m_firstFrame: 12
+    m_length: 1
+  - m_name: Eat
+    m_firstFrame: 13
+    m_length: 1
+  - m_name: Vomit
+    m_firstFrame: 14
+    m_length: 1
+  - m_name: Mindtrick
+    m_firstFrame: 15
+    m_length: 1
+  - m_name: 
+    m_firstFrame: 16
+    m_length: 1
+  m_packingTag: 
+  m_pixelsPerUnit: 1
+  m_filterMode: 0
+  m_compression: 0
+  m_crunchedCompression: 0
+  m_sourcePSD: Art/Mockup/Inventory.aseprite
+  m_sourceDirectory: C:\Users\Duzz\Desktop
+  m_deleteImportedPngs: 1
+  m_spriteDirectory: Sprites
+  m_gui: 0

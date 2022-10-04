@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a16e9f9c6db14b418901a66d60f8d1b, type: 3}
+  m_Name: _ImportWizardSack
+  m_EditorClassIdentifier: 
+  m_animations:
+  - m_name: SackD
+    m_firstFrame: 1
+    m_length: 1
+  - m_name: SackR
+    m_firstFrame: 2
+    m_length: 9
+  - m_name: 
+    m_firstFrame: 11
+    m_length: 10
+  - m_name: 
+    m_firstFrame: 21
+    m_length: 1
+  - m_name: 
+    m_firstFrame: 22
+    m_length: 1
+  - m_name: 
+    m_firstFrame: 23
+    m_length: 1
+  - m_name: 
+    m_firstFrame: 24
+    m_length: 1
+  - m_name: 
+    m_firstFrame: 25
+    m_length: 1
+  - m_name: 
+    m_firstFrame: 26
+    m_length: 1
+  - m_name: 
+    m_firstFrame: 27
+    m_length: 1
+  m_packingTag: 
+  m_pixelsPerUnit: 1
+  m_filterMode: 0
+  m_compression: 0
+  m_crunchedCompression: 0
+  m_sourcePSD: ../../../Dropbox/Powerhoof/AdvXJam2020/MockupArt/AssetList/CharWizard/WizardSack.aseprite
+  m_sourceDirectory: ..\..\..\Dropbox\Powerhoof\AdvXJam2020\MockupArt\AssetList\CharWizard/Export
+  m_deleteImportedPngs: 1
+  m_spriteDirectory: Sprites
+  m_gui: 0

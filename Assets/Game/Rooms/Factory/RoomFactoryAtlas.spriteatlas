@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RoomFactoryAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: ecc7ed83950e5a94592501ebfe05cc1f, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: bab898158c5e7114ebe749bbcc756ddc, type: 3}
+  - {fileID: 21300000, guid: 40b24b25e791f8b43a8b8b3e3d5f24dd, type: 3}
+  - {fileID: 21300000, guid: 4f5be8bb56a779841b8fc56fd518db06, type: 3}
+  - {fileID: 21300000, guid: 837cdb8e17c8ace4eb227ca1dcd26dfb, type: 3}
+  - {fileID: 21300000, guid: 8c626cbe7852826458d94573fdfa495a, type: 3}
+  - {fileID: 21300000, guid: 0e1d81dfd1d6c6448a72250b30ebc2dd, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - SackWizard_0
+  - Bg_0
+  - FG_0
+  - SacksDown_0
+  - SackPrince_0
+  - Sack_0
+  m_RenderDataMap: {}
+  m_Tag: RoomFactoryAtlas
+  m_IsVariant: 0

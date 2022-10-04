@@ -1,0 +1,12 @@
+FONT NOTES
+
+Monkey Island font - Best used at 8pt
+   from https://www.ptless.org/sfomi/
+   © 1990 Lucasfilm Games
+
+Munro - Best used at 10pt
+
+Crawl fonts - Best used at 16pt
+
+The fonts in the demo are all intended for pixel art games-
+For high res games, set "Font Size" higher in the Text Mesh, and change "Character Size" to 1 (or down until it's crisp enough)

@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RoomLabyrinthAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 0af6de0ba6f4d384592eaa344c25a423, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 1e41cd70e14817a41b237a190bbc83cc, type: 3}
+  - {fileID: 21300000, guid: 2dae7731f18a67a428d5a209f3006f74, type: 3}
+  - {fileID: 21300000, guid: ef91b7f1b04e5264295b845d8ab05ee1, type: 3}
+  - {fileID: 21300000, guid: 52d135d37b1388c4baeffa822719fafd, type: 3}
+  - {fileID: 21300000, guid: a8851b15b9fad0440882adbd06ca1352, type: 3}
+  - {fileID: 21300000, guid: cf5b5e96a8e425046a8f976f38e673ae, type: 3}
+  - {fileID: 21300000, guid: 57298827411f1ff48bfdb83173c5b1f4, type: 3}
+  - {fileID: 21300000, guid: 9f1af34834840c944ae4dfabe9711432, type: 3}
+  - {fileID: 21300000, guid: c5a5b7d8f3d99354596016dd9a84e0bc, type: 3}
+  - {fileID: 21300000, guid: c7003729d2d21934a85f2410c99c3864, type: 3}
+  - {fileID: 21300000, guid: 6213509929a5dcb42b5c7cd9166addfa, type: 3}
+  - {fileID: 21300000, guid: 1d7ac57a8d500be408146da0a1db1552, type: 3}
+  - {fileID: 21300000, guid: 21140dac7017c6e44bd96b69408f098d, type: 3}
+  - {fileID: 21300000, guid: 0eae331e44c1be4478f22c06b8f47769, type: 3}
+  - {fileID: 21300000, guid: 7d69ad3ecd1f4ec4eb53fce02e7dd9c6, type: 3}
+  - {fileID: 21300000, guid: 8208d8ceb0999704fad3abb988431158, type: 3}
+  - {fileID: 21300000, guid: 942b391f716805c45838f2baa1d4b430, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - FgL_0
+  - Planet_0
+  - HouseSmash_0
+  - DoorUp_0
+  - House_0
+  - WbA_0
+  - Fg_0
+  - DoorDown_0
+  - FgR_0
+  - WbB_0
+  - BgC_0
+  - BgE_0
+  - Book_0
+  - DoorDownSquash_0
+  - BgB_0
+  - BgA_0
+  - BgD_0
+  m_RenderDataMap: {}
+  m_Tag: RoomLabyrinthAtlas
+  m_IsVariant: 0

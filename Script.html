@@ -1,0 +1,1550 @@
+<html><head><style>
+		body{ text-align: center; }
+		ul {
+			margin-top: 20px;
+			margin-bottom: 20px;
+			margin-right: auto;
+			margin-left: auto;
+
+		    list-style: none;
+		    max-width: 700px;
+		    background: #fff;
+		    padding: 5px 14px;
+			text-align: left;
+		}
+		li { font: 12px/14px Courier, fixed; }
+		.sceneheader, .action, .character { padding-top: 1.5ex; }
+		.sceneheader  { font-weight: bold; text-transform:uppercase; }
+		.action { padding-right: 5%; }
+		.character {  margin-left: 40%; text-transform:uppercase;  }
+		.dialogue { margin-left: 25%; padding-right: 25%; }
+		.parenthetical { margin-left: 32%; padding-right: 30%; }
+		/* special case: dialogue followed by a parenthetical; the extra line needs to be suppressed */
+		.dialogue + .parenthetical { padding-bottom: 0; }
+		.transition { padding-top: 3ex; margin-left: 65%; padding-bottom: 1.5ex; }
+		.id { float:left; padding-right: 0; color:#ccc; text-align: right; width: 23%; }
+		</style>
+<body><code><ul>
+	<li class="sceneheader">Room- Space</li>
+
+
+		<li class="action">StartGame</li>
+
+			<li class="character"><b>Narr</b></li>
+			<li class="id">(Narr0)</li><li class="dialogue">We rejoin our two galactic heroes as they depart Spacekeep Mana-1 on another mission from the Council of Planets</li>
+
+		<li class="action">PrinceClickPropPrince</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince0)</li><li class="dialogue">I'm looking tippy toppy</li>
+			<li class="id">(Prince1)</li><li class="dialogue">I love having the cosmic wind in my hair</li>
+			<li class="id">(Prince2)</li><li class="dialogue">Where's that star chart?</li>
+			<li class="id">(Prince3)</li><li class="dialogue">I should look in my inventoire!</li>
+
+		<li class="action">PrinceClickPropWizard</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince4)</li><li class="dialogue">Onward Maldrek!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard0)</li><li class="dialogue">Stop saying that</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince5)</li><li class="dialogue">The interplanetary council of planets is counting on us</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard1)</li><li class="dialogue">I'm pretty sure we were supposed to turn on to I97</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince6)</li><li class="dialogue">Nonsense!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard2)</li><li class="dialogue">Give me that star chart</li>
+
+		<li class="action"> Use map on wizard at start</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince7)</li><li class="dialogue">Shouldn't I do the map, so you can watch where you're going?</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard3)</li><li class="dialogue">It's space, you vestibular bulb! Empty space for millions of klorbits</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince8)</li><li class="dialogue">What about space asteroids?</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard4)</li><li class="dialogue">Shut up! I'm trying to calculate delta-v for our orbital insertion</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince9)</li><li class="dialogue">What about that big planet?</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard5)</li><li class="dialogue">If you could navigate I wouldn't need to-</li>
+
+		<li class="action">Use spellbook on wizard at start</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard6)</li><li class="dialogue">I don't want your useless book of "spells"</li>
+
+		<li class="action">Use spellbook on self at intro</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince10)</li><li class="dialogue">I get a little nauseous trying to read during hyperdrive jumps</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard7)</li><li class="dialogue">If you're gonna honk, do it off the side</li>
+
+		<li class="action">Use map on self at intro</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince11)</li><li class="dialogue">Maybe I should look at the map</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard8)</li><li class="dialogue">No! We'll end up back on that dissolving corpse planet</li>
+			<li class="id">(Wizard9)</li><li class="dialogue">Just give it here</li>
+
+		<li class="action">EndSequence</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince12)</li><li class="dialogue">Good thing I have you with me Maldrek</li>
+			<li class="id">(Prince13)</li><li class="dialogue">I had no idea she had laser vision! She would have fried me all crispy in an instant</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard10)</li><li class="dialogue">No sweat</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince14)</li><li class="dialogue">And installing yourself as the new ruler of Lobos...</li>
+			<li class="id">(Prince15)</li><li class="dialogue">Why, you'll be able to work with the council to ensure no-one is ever turned into Space Chicken again!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard11)</li><li class="dialogue">Ah, naturally</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince16)</li><li class="dialogue">I say... Don't eat ALL the evidence</li>
+			<li class="character"><b>Narr</b></li>
+			<li class="id">(Narr1)</li><li class="dialogue">And so our galactic heroes return to Spacekeep Mana-1, the universe is safe once again</li>
+			<li class="id">(Narr2)</li><li class="dialogue">Tune in next time for more...</li>
+			<li class="id">(Narr3)</li><li class="dialogue">INTERGALACTIC WIZARD FORCE</li>
+
+		<li class="action">PrinceClickHotspotSpace</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince17)</li><li class="dialogue">Ah, another mission in space</li>
+			<li class="id">(Prince18)</li><li class="dialogue">What zany adventures will we get up to this time Maldrek?</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard12)</li><li class="dialogue">I dunno, Prince Xandar</li>
+			<li class="id">(Wizard13)</li><li class="dialogue">And as long as I don't get my genitals stuck in an asteroid this time...</li>
+			<li class="id">(Wizard14)</li><li class="dialogue">...I don't care</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince19)</li><li class="dialogue"> Ahh, space	</li>
+			<li class="id">(Prince20)</li><li class="dialogue">Spacey Spacey Space</li>
+			<li class="id">(Prince21)</li><li class="dialogue">Sure is... a lot of space</li>
+			<li class="id">(Prince22)</li><li class="dialogue">Ah yes. Space</li>
+			<li class="id">(Prince23)</li><li class="dialogue">SPACE!</li>
+			<li class="id">(Prince24)</li><li class="dialogue">s p a c e</li>
+			<li class="id">(Prince25)</li><li class="dialogue">It's a great day for space</li>
+			<li class="id">(Prince26)</li><li class="dialogue">Ahhhhhh Space</li>
+
+	<li class="sceneheader">Room- Labyrinth</li>
+
+
+		<li class="action">UpdateBlocking</li>
+
+			<li class="character"><b>Narr</b></li>
+			<li class="id">(Narr4)</li><li class="dialogue">Debug: flat guy dead</li>
+			<li class="id">(Narr5)</li><li class="dialogue">Debug: Got hyperdrive</li>
+
+		<li class="action">OnEnterRegionDoor</li>
+
+			<li class="character"><b>Flat</b></li>
+			<li class="id">(Flat0)</li><li class="dialogue">Oof</li>
+			<li class="id">(Flat1)</li><li class="dialogue">Agh</li>
+			<li class="id">(Flat2)</li><li class="dialogue">Ugh</li>
+
+		<li class="action"> Talk to flattened man first time</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince27)</li><li class="dialogue">The floor's making noises Maldrek</li>
+			<li class="character"><b>Flat</b></li>
+			<li class="id">(Flat3)</li><li class="dialogue">I'm stuck under here, eh?</li>
+
+		<li class="action">Talk to flattened man again</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince28)</li><li class="dialogue">Ah, hello?</li>
+			<li class="character"><b>Flat</b></li>
+			<li class="id">(Flat4)</li><li class="dialogue">Hi, ah, sorry to bother you, but I seem to have been crushed under this door, eh?</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince29)</li><li class="dialogue">Ah ha, this calls for some magic</li>
+
+		<li class="action">Talk to flattened man again 2</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince30)</li><li class="dialogue">Hold tight my friend, I'll have that off you in a jiffy</li>
+			<li class="character"><b>Flat</b></li>
+			<li class="id">(Flat5)</li><li class="dialogue">She'll be right bro, kinda cosy under here, eh?</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince31)</li><li class="dialogue">This calls for some magic</li>
+
+		<li class="action">PrinceClickPropBook</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince32)</li><li class="dialogue">Ooh, my ah, spell book</li>
+			<li class="id">(Prince33)</li><li class="dialogue">I'll need that to work my magic</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard15)</li><li class="dialogue">Heh, your "magic"</li>
+			<li class="id">(Wizard16)</li><li class="dialogue">My epileptic cat jasper has more magic in her left foot</li>
+			<li class="id">(Wizard17)</li><li class="dialogue">That's the one we had to cut off</li>
+			<li class="id">(Wizard18)</li><li class="dialogue">Gangrene, you know</li>
+
+		<li class="action">Lift door of flattened guy	</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince34)</li><li class="dialogue">TELEKINESIS!</li>
+			<li class="character"><b>Flat</b></li>
+			<li class="id">(Flat6)</li><li class="dialogue">Sweet as, thanks cuz</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince35)</li><li class="dialogue">Sorry about, er, landing on your hovel</li>
+			<li class="character"><b>Flat</b></li>
+			<li class="id">(Flat7)</li><li class="dialogue">Oh, no worries, bro, that's what insurance is for, eh?</li>
+			<li class="id">(Flat8)</li><li class="dialogue">Just grab your deets if that's cool? </li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince36)</li><li class="dialogue">What do you need?</li>
+			<li class="character"><b>Flat</b></li>
+			<li class="id">(Flat9)</li><li class="dialogue">Name, where you hail from, wizard rego</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince37)</li><li class="dialogue">Oh, yes, it's...</li>
+			<li class="id">(Prince38)</li><li class="dialogue">Prince Xandar...</li>
+			<li class="id">(Prince39)</li><li class="dialogue">Ah, X.A.N.D.A.R	</li>
+			<li class="character"><b>Flat</b></li>
+			<li class="id">(Flat10)</li><li class="dialogue">Mmmm	</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince40)</li><li class="dialogue">Yep, ah, Henderson</li>
+			<li class="id">(Prince41)</li><li class="dialogue">Maldrek, what's your rego?</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard19)</li><li class="dialogue">E 4 T - 5 H 1 T</li>
+			<li class="character"><b>Flat</b></li>
+			<li class="id">(Flat11)</li><li class="dialogue">Planet?</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince42)</li><li class="dialogue">Oh, ah, Spacekeep Mana-1</li>
+			<li class="character"><b>Flat</b></li>
+			<li class="id">(Flat12)</li><li class="dialogue">Too easy</li>
+
+		<li class="action">Use hyperdrive on planet first time</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard20)</li><li class="dialogue">Lets go to that there planet			</li>
+			<li class="id">(Wizard21)</li><li class="dialogue">Oh, Alcock's Canal!</li>
+			<li class="id">(Wizard22)</li><li class="dialogue">My MP's too phleppin' low to cast hyperdrive</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince43)</li><li class="dialogue">Maybe a protein shake?		</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard23)</li><li class="dialogue">Sod that. A good bucket of "Space Chicken"'s what I need</li>
+
+		<li class="action">Use hyperdrive on planet 2nd time</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard24)</li><li class="dialogue">Can't hyperdrive without my "Space Chicken"</li>
+
+		<li class="action">Use hyperdrive without having eaten  chicken</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard25)</li><li class="dialogue">Gotta absorb that "Space Chicken" power!</li>
+			<li class="id">(Wizard26)</li><li class="dialogue">I have just the spell too</li>
+
+		<li class="action">Use hyperdrive first time</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard27)</li><li class="dialogue">Hey, Xandar, time to high-tail it to Lobos</li>
+
+		<li class="action">Use hyperdrive again</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard28)</li><li class="dialogue">I'm sick of this wreck of a planet, lets go</li>
+			<li class="id">(Wizard29)</li><li class="dialogue">Hey, lets blow this stinkin' dump</li>
+			<li class="id">(Wizard30)</li><li class="dialogue">Lets check out Lobos again</li>
+			<li class="id">(Wizard31)</li><li class="dialogue">We're going back Xandar</li>
+			<li class="id">(Wizard32)</li><li class="dialogue">I'm goin' back if you wanna lift</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince44)</li><li class="dialogue">Coming</li>
+			<li class="id">(Prince45)</li><li class="dialogue">Okay, okay</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard33)</li><li class="dialogue">Sounds good</li>
+			<li class="id">(Wizard34)</li><li class="dialogue">The planet doesn't need the chicken, I do</li>
+
+		<li class="action">PrinceClickCharacterFlat</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince46)</li><li class="dialogue">Anyway, we're here on bit of a quest, you know</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard35)</li><li class="dialogue">Yeah, what's this distress call about?</li>
+			<li class="character"><b>Flat</b></li>
+			<li class="id">(Flat13)</li><li class="dialogue">Oh, distress call? Dunno eh?</li>
+			<li class="id">(Flat14)</li><li class="dialogue">Heard a pretty juicy rumor, though</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince47)</li><li class="dialogue">Oh yeah?</li>
+			<li class="character"><b>Flat</b></li>
+			<li class="id">(Flat15)</li><li class="dialogue">Yeah, the planetary council's not happy about how dear the old space-waka's getting</li>
+			<li class="id">(Flat16)</li><li class="dialogue">Honest to G, I heard they sent some hatchet-fella to overthrow the-</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard36)</li><li class="dialogue">A-HEEEM</li>
+			<li class="id">(Wizard37)</li><li class="dialogue">Poor idiot's clearly delusional, probably loss of blood</li>
+			<li class="character"><b>Flat</b></li>
+			<li class="id">(Flat17)</li><li class="dialogue">I do seem to be dying of blood loss, eh?</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince48)</li><li class="dialogue">Tell you what, I'll go fetch something to sort you out</li>
+			<li class="character"><b>Flat</b></li>
+			<li class="id">(Flat18)</li><li class="dialogue">Minor healing potion should do it, guy over there sells 'em</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince49)</li><li class="dialogue">Then you can tell me the rest</li>
+			<li class="character"><b>Flat</b></li>
+			<li class="id">(Flat19)</li><li class="dialogue">Sure, I have this guy's name and everything, eh?</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard38)</li><li class="dialogue">That can wait 'til you're all better</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince50)</li><li class="dialogue">I'll get you that potion</li>
+			<li class="character"><b>Flat</b></li>
+			<li class="id">(Flat20)</li><li class="dialogue">No wuckas bro</li>
+
+		<li class="action">Look at flat guy when he's dead</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince51)</li><li class="dialogue">What happened?</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard39)</li><li class="dialogue">Eh. Who could say?</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince52)</li><li class="dialogue">Pity, seems like he knew something</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard40)</li><li class="dialogue">Yeah, a real tragedy</li>
+			<li class="id">(Wizard41)</li><li class="dialogue">We goin'?</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince53)</li><li class="dialogue">Well, what about our quest, this, ah, distress call?</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard42)</li><li class="dialogue">Herrrrrrrrrrr... </li>
+			<li class="id">(Wizard43)</li><li class="dialogue">Fine. I'll poke around</li>
+
+		<li class="action">prince look at dead guy again</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince54)</li><li class="dialogue">The mystery deepens</li>
+
+		<li class="action"> Talk to merchant first time</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince55)</li><li class="dialogue">Hello there</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant0)</li><li class="dialogue">Ah, a wizard if I'm not mistaken</li>
+			<li class="id">(Merchant1)</li><li class="dialogue">After some "Space Chicken" then are you?</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince56)</li><li class="dialogue">Ooh, er, no don't touch the stuff myself</li>
+			<li class="id">(Prince57)</li><li class="dialogue">Processed food does terrible things to your gut biome, you know</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant2)</li><li class="dialogue">Heh, suit yourself</li>
+
+		<li class="action"> Talk to merchant Ask for potion</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince58)</li><li class="dialogue">I'm after a minor heal potion, I was hoping-</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant3)</li><li class="dialogue">That'll be two gronks</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard44)</li><li class="dialogue">FORCE BOLT!</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince59)</li><li class="dialogue">Oh, right, ah, see, the guy over there, his gonna bleed to death if I don't-</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant4)</li><li class="dialogue">Got private health?</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince60)</li><li class="dialogue">Well, I don't have my card on me</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant5)</li><li class="dialogue">Two cronks</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince61)</li><li class="dialogue">I thought you said gronks</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant6)</li><li class="dialogue">Gronks, cronks... doesn't matter to me. All I know is, minor heal, that's 2 of em</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince62)</li><li class="dialogue">I only have imperial kothags</li>
+			<li class="id">(Prince63)</li><li class="dialogue">Hey Maldrek!</li>
+
+		<li class="action">Prince talks to merchant about wizard needing chicken</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince64)</li><li class="dialogue">So, as it turns out, I do need some of that "Space Chicken", for my friend</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant7)</li><li class="dialogue">Of course, yes, for your friend</li>
+			<li class="id">(Merchant8)</li><li class="dialogue">50 zonbecks </li>
+
+		<li class="action">Talk to merchant about chicken again</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince65)</li><li class="dialogue">They say he who controls the "Space Chicken" controls the universe</li>
+			<li class="id">(Prince66)</li><li class="dialogue">That must mean you control the universe</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant9)</li><li class="dialogue">...control the universe</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince67)</li><li class="dialogue">I suppose you get that one a lot</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant10)</li><li class="dialogue">Errr-huh</li>
+
+		<li class="action">Talk to merchant again</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince68)</li><li class="dialogue">Do you know why a distress call would have been sent from this planet?</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant11)</li><li class="dialogue">Can't help you there, I'm just a humble merchant</li>
+
+		<li class="action">Talk to merchant about random 2</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince69)</li><li class="dialogue">So what else do you sell?</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant12)</li><li class="dialogue">We have blood sausage</li>
+			<li class="id">(Merchant13)</li><li class="dialogue">Blood pies</li>
+			<li class="id">(Merchant14)</li><li class="dialogue">Blood</li>
+			<li class="id">(Merchant15)</li><li class="dialogue">Chips with blood</li>
+			<li class="id">(Merchant16)</li><li class="dialogue">Blood soup</li>
+			<li class="id">(Merchant17)</li><li class="dialogue">That one's popular</li>
+			<li class="id">(Merchant18)</li><li class="dialogue">Minor heal potions</li>
+			<li class="id">(Merchant19)</li><li class="dialogue">Made with real blood</li>
+			<li class="id">(Merchant20)</li><li class="dialogue">Huuuuuuuuurrrr</li>
+			<li class="id">(Merchant21)</li><li class="dialogue">And yer "Space Chicken"</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince70)</li><li class="dialogue">Right... I'm trying to eat less meat, you see, and-</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant22)</li><li class="dialogue">Blood's not meat</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince71)</li><li class="dialogue">Right, but it's... kind of the same thing, you see-</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant23)</li><li class="dialogue">I don't</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince72)</li><li class="dialogue">Ah, well. Actually, I'll just keep browsing for now</li>
+
+		<li class="action">Talk to merchant about random 3 </li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince73)</li><li class="dialogue">This blood. It's not labyrinthian blood is it?</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant24)</li><li class="dialogue">Cat blood</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince74)</li><li class="dialogue">Okay. That's good... I guess</li>
+
+		<li class="action">Talk to him again 2</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince75)</li><li class="dialogue">I might just leave him be</li>
+			<li class="id">(Prince76)</li><li class="dialogue">I, ah, find him a little off-putting</li>
+
+		<li class="action">Talk to maldrek first time</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince77)</li><li class="dialogue">Quite the landing there, you okay?</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard45)</li><li class="dialogue">Of course I'm not you great idiot!</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince78)</li><li class="dialogue">Maldrek...</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard46)</li><li class="dialogue">Ah... sorry</li>
+			<li class="id">(Wizard47)</li><li class="dialogue">Blood sugar gets a little low sometimes, I get cranky</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince79)</li><li class="dialogue">You should try papaya, there's a man in Brazil, ate nothing but papaya for a year</li>
+			<li class="id">(Prince80)</li><li class="dialogue">CURED his diabetes</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard48)</li><li class="dialogue">I'll stick to my hourly rat pancreas thanks</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince81)</li><li class="dialogue">Suit yourself</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard49)</li><li class="dialogue">Just give me a minute, I'll be fine</li>
+
+		<li class="action">Talk to maldrek again</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince82)</li><li class="dialogue">So where do you think we are?</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard50)</li><li class="dialogue">Well, based on the fact we were heading to Labyrinthia, the labyrinth planet</li>
+			<li class="id">(Wizard51)</li><li class="dialogue">And factoring in the endless labyrinth surrounding us...</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince83)</li><li class="dialogue">You're right, we should ask someone</li>
+
+		<li class="action">Talk to maldrek about mission</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince84)</li><li class="dialogue">So, this mission, ah...</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard52)</li><li class="dialogue">We're here investigating a distress call</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince85)</li><li class="dialogue">Right, that's right</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard53)</li><li class="dialogue">Go ask around or something		</li>
+
+		<li class="action">Talk to maldrek again</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince86)</li><li class="dialogue">What'cha wanna do next?</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard54)</li><li class="dialogue">I don't know, talk to some of these repulsive natives</li>
+			<li class="id">(Wizard55)</li><li class="dialogue">Do whatever pathetic task they have for us</li>
+			<li class="id">(Wizard56)</li><li class="dialogue">Then leg it back before my toes itch too bad</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince87)</li><li class="dialogue">Oh, Maldrek, you didn't forget your fungus powder?</li>
+
+		<li class="action">PrinceClickCharacterDoorian</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard57)</li><li class="dialogue">Space-christ, What's wrong with this one?</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince88)</li><li class="dialogue">Pardon my friend here</li>
+			<li class="id">(Prince89)</li><li class="dialogue">I'm Prince Xandar, and this is Maldrek</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard58)</li><li class="dialogue">Oh, for- Don't TALK to it!	</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian0)</li><li class="dialogue">Hi!! Oh my hinges, it's great to meet you! </li>
+			<li class="id">(Doorian1)</li><li class="dialogue">I'm Doorian, Doorian Knobb!</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince90)</li><li class="dialogue">What, ah, what's happening?</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian2)</li><li class="dialogue">Oh, you know, just thinking about DOORS!</li>
+			<li class="id">(Doorian3)</li><li class="dialogue">Did you know, there are over eight thousand types of doors in the labyrinth!</li>
+			<li class="id">(Doorian4)</li><li class="dialogue">I have a spreadsheet of all of them, I can show you!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard59)</li><li class="dialogue">Oh, here we go</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian5)</li><li class="dialogue">Oh, I forgot my little intro spiel!</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince91)</li><li class="dialogue">Your spiel?</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian6)</li><li class="dialogue">Here goes- ahem</li>
+			<li class="id">(Doorian7)</li><li class="dialogue">Choose a door! Any door!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard60)</li><li class="dialogue">Bleedin' Labyrinthians</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian8)</li><li class="dialogue">Choose wisely and you may enter a fantastical enchanted kingdom</li>
+			<li class="id">(Doorian9)</li><li class="dialogue">Where a treasure lies hidden</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince92)</li><li class="dialogue">And if I choose poorly?</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian10)</li><li class="dialogue">You get to stay here with me!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard61)</li><li class="dialogue">Do NOT chose a door</li>
+
+		<li class="action">Prince chooses a door on door lady</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince93)</li><li class="dialogue">What's this treasure anyway?</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian11)</li><li class="dialogue">Well, some say it's a powerful Potion of Expectorium!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard62)</li><li class="dialogue">Vomit potion?</li>
+			<li class="id">(Wizard63)</li><li class="dialogue">I can make my own in my bath at home</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince94)</li><li class="dialogue">Okay, well, I choose...</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard64)</li><li class="dialogue">Don't do it...</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince95)</li><li class="dialogue">This one</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian12)</li><li class="dialogue">Ah, bad luck, that's not it</li>
+			<li class="id">(Doorian13)</li><li class="dialogue">But don't worry! We can hang out!</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince96)</li><li class="dialogue">That'd be okay I guess</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian14)</li><li class="dialogue">Great! I'm actually moving flat on Saturday, you'll help out, won't you!</li>
+			<li class="id">(Doorian15)</li><li class="dialogue">Better start early, what with all the stairs. Lets say 5 am!  </li>
+			<li class="id">(Doorian16)</li><li class="dialogue">Loooots of wardrobes to move</li>
+			<li class="id">(Doorian17)</li><li class="dialogue">They're  kinda my thing, ya know? 'Cause of the doors!</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince97)</li><li class="dialogue">Ah... I'm pretty busy...</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian18)</li><li class="dialogue">Oh, talking about doors, there's this museum, they have this amazing transom exhibition, you just have to see it</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince98)</li><li class="dialogue">I... need to go over here now</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard65)</li><li class="dialogue">Told you. I can pick em a mile away</li>
+
+		<li class="action">Prince asked about opened doors</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince99)</li><li class="dialogue">Oh, hey, ah, looks like your doors have popped open</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian19)</li><li class="dialogue">I KNOW! This has never HAPPENED before!</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince100)</li><li class="dialogue">I could visit that magic kingdom now yes?</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian20)</li><li class="dialogue">Of COURSE!</li>
+			<li class="id">(Doorian21)</li><li class="dialogue">While you're inside, I'll take you to meet my cousin Theodoor</li>
+			<li class="id">(Doorian22)</li><li class="dialogue">You think I like doors, wait until you meet him!</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince101)</li><li class="dialogue">On second thought, ah, I'll pass</li>
+
+		<li class="action">prince talks more to door lady about quest</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince102)</li><li class="dialogue">So, do you know why there'd be a distress call from here?</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian23)</li><li class="dialogue">Well, probably because of all the disappearances! </li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince103)</li><li class="dialogue">Oh yeah?</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian24)</li><li class="dialogue">It's been mostly people who no one really likes though</li>
+			<li class="id">(Doorian25)</li><li class="dialogue">One guy, Rooperp, he had this strange laugh, very grating, very disappearance worthy that laugh </li>
+			<li class="id">(Doorian26)</li><li class="dialogue">Now that I think about it, this disappearing business has actually been quite lovely</li>
+			<li class="id">(Doorian27)</li><li class="dialogue">Less people around to wear out all the doors!</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince104)</li><li class="dialogue"> So, people disappearing. Got any more info?</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian28)</li><li class="dialogue">I mean, not really</li>
+			<li class="id">(Doorian29)</li><li class="dialogue">It's not like DOORS are disappearing</li>
+			<li class="id">(Doorian30)</li><li class="dialogue">Ooooh, Imagine that! Doors! Gone! What would we do? </li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince105)</li><li class="dialogue">Just walk through the gap?</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian31)</li><li class="dialogue">Horrifying</li>
+
+		<li class="action">DoorLadyGoOn</li>
+
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian32)</li><li class="dialogue">He's into bi-fold doors at the moment, I told him, as long as it's not in-swung to a small room, I'm not fussed</li>
+			<li class="id">(Doorian33)</li><li class="dialogue">And you know what he said? Doorian, he said... well, I can't remember what he said, but it was about doors!</li>
+			<li class="id">(Doorian34)</li><li class="dialogue">Oh! And he has a great collection of louvers. And you should see his list of architrave profies!</li>
+			<li class="id">(Doorian35)</li><li class="dialogue">Chamfered, beveled, ovolo, half scoop....</li>
+
+		<li class="action">Prince looks at statue</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince106)</li><li class="dialogue">Who's this then?</li>
+			<li class="id">(Prince107)</li><li class="dialogue">Dread-Queen Maxilla. I bet she knows what's been happening around here</li>
+
+		<li class="action">DoorianTalkStatue</li>
+
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian36)</li><li class="dialogue">Oh, That's Maxilla, Dread-Queen of Planet Lobos</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince108)</li><li class="dialogue">What's her deal then?</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian37)</li><li class="dialogue">Well... I heard she's got a thing for sliding doors</li>
+			<li class="id">(Doorian38)</li><li class="dialogue">NOT my preference</li>
+			<li class="id">(Doorian39)</li><li class="dialogue">Interestingly, she appeared around the same time these disappearances started</li>
+
+		<li class="action">OnUseInvCharacterMerchant</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard66)</li><li class="dialogue">Alright, here's your money</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant25)</li><li class="dialogue">Pleasure doin' business with yer</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard67)</li><li class="dialogue">The pleasure's all mine</li>
+			<li class="id">(Wizard68)</li><li class="dialogue">DISPOSSESS!</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant26)</li><li class="dialogue">Try it and I'll gut ya</li>
+
+		<li class="action">OnUseInvCharacterFlat</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard69)</li><li class="dialogue">DISPOSSESS!</li>
+			<li class="id">(Wizard70)</li><li class="dialogue">He had a tidy little sum tucked away</li>
+
+		<li class="action">Prince Uses exit</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince109)</li><li class="dialogue">Maybe I'll go explore</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant27)</li><li class="dialogue">Yes, yes, explore by all means</li>
+			<li class="id">(Merchant28)</li><li class="dialogue">Explore, the eternal labyrinth of the damned!	</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince110)</li><li class="dialogue">I kinda like mazes</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant29)</li><li class="dialogue">No one has ever entered the labyrinth and left</li>
+			<li class="id">(Merchant30)</li><li class="dialogue">At least, not with their sanity</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince111)</li><li class="dialogue">Well, maybe I'll just hang around here then</li>
+
+		<li class="action">Wizard looks at statue</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard71)</li><li class="dialogue">What an eyesore, my pet marmoset could sculpt better</li>
+			<li class="id">(Wizard72)</li><li class="dialogue">And her eyes have rotted out</li>
+			<li class="id">(Wizard73)</li><li class="dialogue">Looks strangely familiar though</li>
+
+		<li class="action">WizardClickHotspotExit</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard74)</li><li class="dialogue">Not on your life am I goin' in there</li>
+
+		<li class="action">First time prince looks at planet</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince112)</li><li class="dialogue">That planet there, I think we should investigate it</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard75)</li><li class="dialogue">Well, I'll crank out the ol' hyperdrive spell if you want</li>
+
+		<li class="action">Prince looks at planet again</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince113)</li><li class="dialogue">What wonders does that planet hold?</li>
+
+		<li class="action">Prince looks at planet after visiting it</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince114)</li><li class="dialogue">Lobos... There's more adventures to be had there, I'll bet</li>
+
+		<li class="action">WizardClickPropPlanet</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard76)</li><li class="dialogue">Nice lookin' rock. I think that's Lobos</li>
+			<li class="id">(Wizard77)</li><li class="dialogue">Well, it's less of a stink hole than this place, but not by much</li>
+
+		<li class="action">Wizard talks to merchant about needing chicken</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard78)</li><li class="dialogue">You got "Chicken"?</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant31)</li><li class="dialogue">50 zonbecks</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard79)</li><li class="dialogue">I'll do you 20</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant32)</li><li class="dialogue">50</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard80)</li><li class="dialogue">30</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant33)</li><li class="dialogue">50</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard81)</li><li class="dialogue">10</li>
+			<li class="id">(Wizard82)</li><li class="dialogue">Ah, worth a shot</li>
+
+		<li class="action">Wizard asks again for chicken</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard83)</li><li class="dialogue">I need some "Space Chicken"</li>
+			<li class="id">(Wizard84)</li><li class="dialogue">I NEED it!</li>
+			<li class="id">(Wizard85)</li><li class="dialogue">Someone around here's gotta have some dosh</li>
+
+		<li class="action">Talk to merchant about random stuff</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard86)</li><li class="dialogue">Hey, know anywhere a wizard could get some skirt around here?</li>
+			<li class="id">(Wizard87)</li><li class="dialogue">Give me directions to that place again?</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant34)</li><li class="dialogue">Sure. Just go down there...</li>
+			<li class="id">(Merchant35)</li><li class="dialogue">First left...</li>
+			<li class="id">(Merchant36)</li><li class="dialogue">Second left...</li>
+			<li class="id">(Merchant37)</li><li class="dialogue">Then fourth left...</li>
+			<li class="id">(Merchant38)</li><li class="dialogue">First right...</li>
+			<li class="id">(Merchant39)</li><li class="dialogue">Then second right...</li>
+			<li class="id">(Merchant40)</li><li class="dialogue">Third right...</li>
+			<li class="id">(Merchant41)</li><li class="dialogue">Straight a while...</li>
+			<li class="id">(Merchant42)</li><li class="dialogue">Straight...</li>
+			<li class="id">(Merchant43)</li><li class="dialogue">Up the stairs...</li>
+			<li class="id">(Merchant44)</li><li class="dialogue">Down the trapdoor...</li>
+			<li class="id">(Merchant45)</li><li class="dialogue">Keep left...</li>
+			<li class="id">(Merchant46)</li><li class="dialogue">Pull the lever...</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard88)</li><li class="dialogue">Forget it</li>
+
+		<li class="action">prince look at dead guy again</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard89)</li><li class="dialogue">Bet he has some neat stuff to posses</li>
+
+		<li class="action">Wizard refuses to choose door</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard90)</li><li class="dialogue">Ooooh no, she's not getting me pickin' a door</li>
+			<li class="id">(Wizard91)</li><li class="dialogue">Starts all innocent, next thing you gotta a bunch of half-door half-wizard freak babies, and you're paying support the rest of your life</li>
+
+		<li class="action">wiz talks more to door lady about quest</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard92)</li><li class="dialogue">Alright girly, I got your doors open, let me at that treasure!</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian40)</li><li class="dialogue">Don't 'girly' me! You're not invited, so that'd be breaking and entering</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard93)</li><li class="dialogue">I can oblige</li>
+			<li class="id">(Wizard94)</li><li class="dialogue">I have other ways of acquiring things I want</li>
+
+		<li class="action">Wizard tries to talk to door lady about quest</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard95)</li><li class="dialogue">Hey you. Door... thing</li>
+			<li class="id">(Wizard96)</li><li class="dialogue">Give me the dirt on this planet, huh?</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian41)</li><li class="dialogue">Ugh... I'd much rather talk to your friend</li>
+
+		<li class="action">Cast 'open' on door lady</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince115)</li><li class="dialogue">OPEN!</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian42)</li><li class="dialogue">Oh, my hinges! That tickled!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard97)</li><li class="dialogue">Ah-ha! Now for the treasure inside!</li>
+
+		<li class="action">Cast dispossess on door lady, but doors are shut</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard98)</li><li class="dialogue">DISPOSSESS!</li>
+			<li class="id">(Wizard99)</li><li class="dialogue">Nyaaar... Can't get nothin' while her doors are shut up tight   </li>
+
+		<li class="action">Cast dispossess on door lady and get 'vomit potion'</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard100)</li><li class="dialogue">Ah... Look behind you... a... door or some kind</li>
+			<li class="id">(Wizard101)</li><li class="dialogue">DISPOSSESS!</li>
+			<li class="character"><b>Narr</b></li>
+			<li class="id">(Narr6)</li><li class="dialogue">As Maldrek stretches his wizard arm through the doorway, he's whisked away to a magical land</li>
+			<li class="id">(Narr7)</li><li class="dialogue">There he encounters many wonders, and eventually stumbles upon an ancient chest</li>
+			<li class="id">(Narr8)</li><li class="dialogue">What will he discover inside?  Stay tuned!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard102)</li><li class="dialogue">A flask of... </li>
+			<li class="id">(Wizard103)</li><li class="dialogue">Eggnog? Hey, this ain't no treasure</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian43)</li><li class="dialogue">The last adventurer must have left that</li>
+			<li class="id">(Doorian44)</li><li class="dialogue">Serves you right anyway, taking advantage of an open door</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard104)</li><li class="dialogue">Well, free eggnog's free eggnog</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian45)</li><li class="dialogue">I wouldn't drink it, either. 'Twas years ago he passed by my threshold	</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard105)</li><li class="dialogue">Well then, just the ingredient for a new spell anyway</li>
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian46)</li><li class="dialogue">Odd, he still hasn't called</li>
+
+		<li class="action">Cast dispossess when alredy got vomit spell</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard106)</li><li class="dialogue">Nothing else in there worth having</li>
+
+	<li class="sceneheader">Room- Skull</li>
+
+
+		<li class="action">PrinceClickPropPlanet</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince116)</li><li class="dialogue">Labyrinthia looks beautiful from here</li>
+
+		<li class="action">WizardClickPropPlanet</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard107)</li><li class="dialogue">Uck, what an eyesore</li>
+
+		<li class="action">OnEnterRoomAfterFade</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince117)</li><li class="dialogue">Isn't space travel just the zaaz!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard108)</li><li class="dialogue">Would be if I didn't have to wash your groin sweat off my neck each time</li>
+
+		<li class="action">PrinceClickPropDoorbellUp</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince118)</li><li class="dialogue">Looks like a button... I wonder if it would react to any of my spells</li>
+
+		<li class="action">WizardClickPropDoorbellUp</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard109)</li><li class="dialogue">A button. What is this the stone age? What are we supposed to do with this?</li>
+
+		<li class="action">OnUseInvPropDoorbellUp</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince119)</li><li class="dialogue">FANTASTICAL FIST!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard110)</li><li class="dialogue">Now you've gone and broken it</li>
+			<li class="id">(Wizard111)</li><li class="dialogue">FORCE BOLT!</li>
+			<li class="id">(Wizard112)</li><li class="dialogue">Take that primitive technology</li>
+			<li class="id">(Wizard113)</li><li class="dialogue">DISPOSSESS!</li>
+			<li class="id">(Wizard114)</li><li class="dialogue">Came right off the wall, what a hunk of junk</li>
+			<li class="id">(Wizard115)</li><li class="dialogue">Here you have it</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince120)</li><li class="dialogue">A new spell!</li>
+
+		<li class="action">OnUseInvPropDoorbellDown</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard116)</li><li class="dialogue">DISPOSSESS!</li>
+			<li class="id">(Wizard117)</li><li class="dialogue">What am I doing, I don't want this hunk a junk</li>
+			<li class="id">(Wizard118)</li><li class="dialogue">Here you have it</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince121)</li><li class="dialogue">A new spell!</li>
+
+		<li class="action">PrinceClickPropDoorbellDown</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince122)</li><li class="dialogue">I wonder if it was supposed to do that?</li>
+
+		<li class="action">PrinceClickHotspotGate</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince123)</li><li class="dialogue">Look at those fingies, they must go through a lot of moisturizer </li>
+
+		<li class="action">WizardClickHotspotGate</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard119)</li><li class="dialogue">Classic skull fortress gate design</li>
+
+		<li class="action">OnUseInvHotspotGate</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince124)</li><li class="dialogue">TELEKINESIS!</li>
+			<li class="id">(Prince125)</li><li class="dialogue">It... Wont... Budge</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard120)</li><li class="dialogue">What are those overgrown biceps even good for?</li>
+			<li class="id">(Wizard121)</li><li class="dialogue">Pathetic</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria0)</li><li class="dialogue">Hey, you two schlubs, get off my stoop</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard122)</li><li class="dialogue">Hey, who's there? We're armed, show yerself</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria1)</li><li class="dialogue">Behind you, wiezenheimer</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince126)</li><li class="dialogue">Oh, you have one of those invisibility spells, yes?</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria2)</li><li class="dialogue">What? No! I've eaten myself. What's it to you?</li>
+
+		<li class="action">WizardClickHotspotSkull</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard123)</li><li class="dialogue">Now this is a crib I could call my own</li>
+
+		<li class="action">PrinceClickHotspotSkull</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince127)</li><li class="dialogue">What are the odds our quest will take us in here?</li>
+			<li class="id">(Prince128)</li><li class="dialogue">They'd be up there I think</li>
+
+		<li class="action">IntroduceMaria</li>
+
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria3)</li><li class="dialogue">Maria Il Boccone</li>
+			<li class="id">(Maria4)</li><li class="dialogue">I'm the guardian of the gate. You want in? I'm your gal</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard124)</li><li class="dialogue">Let us in then</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria5)</li><li class="dialogue">Yous are deaf as a Coney Island whitefish</li>
+			<li class="id">(Maria6)</li><li class="dialogue">I've. Eaten. Myself</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard125)</li><li class="dialogue">Then. Un. Eat. Yourself</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria7)</li><li class="dialogue">Barf myself up? Ha! I have an iron constitution</li>
+			<li class="id">(Maria8)</li><li class="dialogue">You'll just have to wait until I digest myself, and... well...   </li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard126)</li><li class="dialogue">Oh, lovely</li>
+
+		<li class="action">PrinceClickCharacterMaria</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince129)</li><li class="dialogue">Well... ah, nice to meet you, I'm Prince Xandar</li>
+
+		<li class="action">Ask gate girl to open the gate now she's back</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince130)</li><li class="dialogue">Do you think you could open the gate now?</li>
+
+		<li class="action">Prince talk to gate girl A</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince131)</li><li class="dialogue">So, why? Did you want to eat yourself... I mean?</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria9)</li><li class="dialogue">Bet you couldn't do it</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince132)</li><li class="dialogue">I don't-</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria10)</li><li class="dialogue">My brother Antonio, took him a week to eat himself</li>
+			<li class="id">(Maria11)</li><li class="dialogue">Me? An afternoon</li>
+			<li class="id">(Maria12)</li><li class="dialogue">Showed him</li>
+
+		<li class="action">Prince talk to gate girl B</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince133)</li><li class="dialogue">You have more siblings?</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria13)</li><li class="dialogue">Five older brothers, all real slime-balls</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince134)</li><li class="dialogue">Ugh, brothers</li>
+			<li class="id">(Prince135)</li><li class="dialogue">'Prince Xandar, why can't you be more like Crown Prince Zardon'</li>
+			<li class="id">(Prince136)</li><li class="dialogue">I bet dad didn't even notice I took this mission</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria14)</li><li class="dialogue">Screw 'em I say</li>
+
+		<li class="action">Prince talk to gate girl C</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince137)</li><li class="dialogue">Nice chatting</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria15)</li><li class="dialogue">Likewise amico</li>
+
+		<li class="action">WizardClickCharacterMaria</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard127)</li><li class="dialogue">So hey, I'm Maldrek</li>
+
+		<li class="action">ask gate girl to open the gate now she's back</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard128)</li><li class="dialogue">Hey, if you're done honkin', open that gate</li>
+
+		<li class="action">Wizard talk to gate girl A</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard129)</li><li class="dialogue">What goes on in this place?</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria16)</li><li class="dialogue">How'd I know that?</li>
+			<li class="id">(Maria17)</li><li class="dialogue">The boss, Elsbeth... That's Dread-Queen Maxilla to you...</li>
+			<li class="id">(Maria18)</li><li class="dialogue">She keeps tight lipped about her operation</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard130)</li><li class="dialogue">No mean feat with that fleshless skull of hers</li>
+
+		<li class="action">Wizard talk to gate girl B</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard131)</li><li class="dialogue">How'd you taste anyway?</li>
+			<li class="id">(Wizard132)</li><li class="dialogue">Thinkin' about cooking up some of my own excess parts</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria19)</li><li class="dialogue">Damn good is how I tasted</li>
+			<li class="id">(Maria20)</li><li class="dialogue">But then we Labyrinthians are known to be right finger-lickin'</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard133)</li><li class="dialogue">Ain't that the truth</li>
+
+		<li class="action">Wizard talk to gate girl C</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard134)</li><li class="dialogue">Any other way into here?</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria21)</li><li class="dialogue">I'm it, gavone</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard135)</li><li class="dialogue">I'd stick my fingers down your throat, but you've eaten it</li>
+
+		<li class="action">OpenGate</li>
+
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria22)</li><li class="dialogue">Well, I guess</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince138)</li><li class="dialogue">Take care, and, hey- Ignore your stupid brothers</li>
+			<li class="id">(Prince139)</li><li class="dialogue">Don't let them define who you are</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria23)</li><li class="dialogue">Yeah buddy, you're right, same to you</li>
+			<li class="character"><b>Narr</b></li>
+			<li class="id">(Narr9)</li><li class="dialogue">And so our two heroes journey again into the unknown. What will they discover??</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince140)</li><li class="dialogue">Dark in here</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard136)</li><li class="dialogue">Do you smell "Space Chicken"?</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince141)</li><li class="dialogue">What's that glurping sound?</li>
+			<li class="id">(Prince142)</li><li class="dialogue">Maldrek, is that your- Argh!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard137)</li><li class="dialogue">Hey, Let go of me you stinking- Ooof!</li>
+
+		<li class="action">Use vomit on gate girl</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard138)</li><li class="dialogue">VOMITOUS OOZE!</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria24)</li><li class="dialogue">What is that, eggnog?</li>
+			<li class="id">(Maria25)</li><li class="dialogue">Why you going around tipping eggnog on the ground?	</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard139)</li><li class="dialogue">Well, I thought maybe...</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince143)</li><li class="dialogue">Eeeww</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria26)</li><li class="dialogue">Ugh, that's disgusting, oh, I can smell it</li>
+			<li class="id">(Maria27)</li><li class="dialogue">Almost enough to make a gal puke</li>
+
+		<li class="action">WizardClickCharacterDog</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard140)</li><li class="dialogue">Stupid mongrel. Shoo. Shoo!</li>
+
+		<li class="action">PrinceClickCharacterDog</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince144)</li><li class="dialogue">Who's a good boy? </li>
+			<li class="id">(Prince145)</li><li class="dialogue">Who's a tippy toppy little boy?</li>
+			<li class="id">(Prince146)</li><li class="dialogue">You are! Yes, you!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard141)</li><li class="dialogue">Oh stow it, ya vestibular bulb</li>
+
+		<li class="action">OnUseInvCharacterDog</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard142)</li><li class="dialogue">I'm not wasting magic on that flea-bitten hybrid vgrep</li>
+
+		<li class="action">WizardClickPropSpew</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard143)</li><li class="dialogue">Hey, it don't look half bad, quivering there like a puddin'</li>
+
+		<li class="action">PrinceClickPropSpew</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince147)</li><li class="dialogue">It's quite impressive how bad that smells</li>
+
+		<li class="action">prince pokes the dog vom</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince148)</li><li class="dialogue">TELEKINESIS!</li>
+			<li class="id">(Prince149)</li><li class="dialogue">I can't lift it, it's running through my fingers like a ball of snotty eels</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria28)</li><li class="dialogue">Acck, I threw up a bit in my mouth... </li>
+
+		<li class="action">wizard pokes the dog vom</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard144)</li><li class="dialogue">DISPOSSESS!</li>
+			<li class="id">(Wizard145)</li><li class="dialogue">Ooh, feels lovely, sliding between my fingers, like a bowl of corn sneezed on itself</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria29)</li><li class="dialogue">Acck-aah, stop it, you're gonna make me barf too!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard146)</li><li class="dialogue">Can't keep hold of it though, slippery stuff</li>
+
+		<li class="action">wizard eats the dog vom</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard147)</li><li class="dialogue">Huh, doesn't look too bad, I've eaten worse</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince150)</li><li class="dialogue">Maldrek, no...</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard148)</li><li class="dialogue">ABSORB!</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria30)</li><li class="dialogue">Urk, no, dont!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard149)</li><li class="dialogue">Hrmm, scrhlp</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria31)</li><li class="dialogue">You're gonna make me... Hulp</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard150)</li><li class="dialogue">Bit hard on the dog-bile for my tastes</li>
+			<li class="id">(Wizard151)</li><li class="dialogue">Slllrp, subtle notes of jellied-liver and cow intestine...</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria32)</li><li class="dialogue">Hurk... I'm gonna...</li>
+			<li class="id">(Maria33)</li><li class="dialogue">Huurrrrrkkkkk! (vomit sound)</li>
+
+	<li class="sceneheader">Room- Factory</li>
+
+
+		<li class="action">OnEnterRoomAfterFade</li>
+
+			<li class="character"><b>Narr</b></li>
+			<li class="id">(Narr10)</li><li class="dialogue">What have our heroes gotten themselves into now?</li>
+			<li class="id">(Narr11)</li><li class="dialogue">Will they find the missing Labyrinthians? </li>
+			<li class="id">(Narr12)</li><li class="dialogue">Just what makes "Space Chicken" so delicious? </li>
+			<li class="id">(Narr13)</li><li class="dialogue">Find out... now!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard152)</li><li class="dialogue">Huuruuurrrraacccck!</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince151)</li><li class="dialogue">Maldrek!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard153)</li><li class="dialogue">Well, this is a GREAT development</li>
+
+		<li class="action">PrinceClickHotspotSack</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince152)</li><li class="dialogue">Hey, that looks like...</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard154)</li><li class="dialogue">Hey, that looks like...</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince153)</li><li class="dialogue">Doorian! </li>
+			<li class="id">(Prince154)</li><li class="dialogue">Hey, Dorian? Hello?</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard155)</li><li class="dialogue">Forget it, she's passed the final threshold</li>
+			<li class="id">(Wizard156)</li><li class="dialogue">Closed the final door</li>
+			<li class="id">(Wizard157)</li><li class="dialogue">Her bolt has been drawn</li>
+			<li class="id">(Wizard158)</li><li class="dialogue">Her lock clicked shut</li>
+			<li class="id">(Wizard159)</li><li class="dialogue">By gloop she was annoying</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince155)</li><li class="dialogue">What's that thing she's in?</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard160)</li><li class="dialogue">It's the ones we're in I'm worried about</li>
+			<li class="id">(Wizard161)</li><li class="dialogue">Your classic flesh sack for digesting victims into a pulpy goo</li>
+
+		<li class="action">PrinceClickHotspotBuckets</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince156)</li><li class="dialogue">Those look like "Space Chicken" buckets</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard162)</li><li class="dialogue">Those are "Space Chicken" buckets</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince157)</li><li class="dialogue">But what are they doing here?</li>
+
+		<li class="action">Wizard Look at maxilla when up on hook</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard163)</li><li class="dialogue">She's the spongiosum behind this, we've gotta stop her Xandar</li>
+
+		<li class="action">Wizard Look at maxilla when on ground (end sequence)</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard164)</li><li class="dialogue">Now's our chance</li>
+
+		<li class="action">Prince Look at maxilla when up on hook</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince158)</li><li class="dialogue">That fiend, that devil!</li>
+
+		<li class="action">Prince Look at maxilla when on ground (end sequence)</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard165)</li><li class="dialogue">This ends now!</li>
+
+		<li class="action">PrinceClickCharacterWizard</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince159)</li><li class="dialogue">How are we going to get out of this one Maldrek?</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard166)</li><li class="dialogue">It ain't looking good, that's for sure</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince160)</li><li class="dialogue">There must be something you can do</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard167)</li><li class="dialogue">It's hopeless</li>
+
+		<li class="action">WizardClickCharacterPrince</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard168)</li><li class="dialogue">Some state we got ourselves into this time old friend</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince161)</li><li class="dialogue">Don't despair, I have a few spells up my sleeve yet!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard169)</li><li class="dialogue">I won't hold my breath</li>
+			<li class="id">(Wizard170)</li><li class="dialogue">You know, it's not such a bad way to die</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince162)</li><li class="dialogue">Hold on Maldrek!</li>
+
+		<li class="action">MaxillaAppear</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince163)</li><li class="dialogue">So... "Space Chicken"... is made out of people...</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard171)</li><li class="dialogue">Well, i mean, they're barely people really. More weird alien things...</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince164)</li><li class="dialogue">"Space Chicken" is people!!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard172)</li><li class="dialogue">Oh... ah. By Bartholin's Glands! I had no idea! How, err, awful!</li>
+			<li class="character"><b>Maxilla</b></li>
+			<li class="id">(Maxilla0)</li><li class="dialogue">Space Chicken LLC, The meat must flow!</li>
+			<li class="id">(Maxilla1)</li><li class="dialogue">Yes, this is Dread-Queen Maxilla</li>
+			<li class="id">(Maxilla2)</li><li class="dialogue">Yes, yes, I've got two more Labyrinthians now, be processed by four</li>
+			<li class="id">(Maxilla3)</li><li class="dialogue">No! I don't want- Just- Get distribution onto it</li>
+			<li class="id">(Maxilla4)</li><li class="dialogue">There's plenty of palettes in the warehouse, Sandra, we're-</li>
+			<li class="id">(Maxilla5)</li><li class="dialogue">I don't care if it takes you all day, I'm up to my mandible in back-orders!</li>
+			<li class="id">(Maxilla6)</li><li class="dialogue">Bah! Useless!</li>
+
+		<li class="action">Try jumping off hook</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard173)</li><li class="dialogue">Hey, you're on to something, do that again</li>
+
+		<li class="action">Outro</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard174)</li><li class="dialogue">Okay, so-</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince165)</li><li class="dialogue">Dread-Queen Elsbeth Maxilla!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard175)</li><li class="dialogue">Hold on you idiot</li>
+			<li class="character"><b>Maxilla</b></li>
+			<li class="id">(Maxilla7)</li><li class="dialogue">Oh, hello</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince166)</li><li class="dialogue">As a representative of-</li>
+			<li class="character"><b>Maxilla</b></li>
+			<li class="id">(Maxilla8)</li><li class="dialogue">One tick</li>
+			<li class="id">(Maxilla9)</li><li class="dialogue">No no no, it's THREE thousand to the Council</li>
+			<li class="id">(Maxilla10)</li><li class="dialogue">I don't CARE what I said, that batch is priority for King Henderson</li>
+			<li class="id">(Maxilla11)</li><li class="dialogue">Now, gotta run</li>
+			<li class="id">(Maxilla12)</li><li class="dialogue">Maldrek, darling!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard176)</li><li class="dialogue">Ahh...</li>
+			<li class="character"><b>Maxilla</b></li>
+			<li class="id">(Maxilla13)</li><li class="dialogue">Now, Your order isn't due until Wednesday, I could push it to this afternoon</li>
+			<li class="id">(Maxilla14)</li><li class="dialogue">But, prices have gone up a smidge</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard177)</li><li class="dialogue">Err, Ixnay on the-</li>
+			<li class="character"><b>Maxilla</b></li>
+			<li class="id">(Maxilla15)</li><li class="dialogue">I know! I know, again, right?! </li>
+			<li class="id">(Maxilla16)</li><li class="dialogue">But well, what are your options? Give up interstellar flight? Ha!</li>
+			<li class="id">(Maxilla17)</li><li class="dialogue">Hold on babe</li>
+			<li class="id">(Maxilla18)</li><li class="dialogue">What? Yes, I KNOW freezer A is down, that's why we moved batches four through eight to unit C</li>
+
+		<li class="action">Maxilla keeps talking, distracted, but it fades into the background</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince167)</li><li class="dialogue">Maldrek, she seemed to know you</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard178)</li><li class="dialogue">I, ahh... nooo...</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince168)</li><li class="dialogue">Does the council know about this? I don't understand!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard179)</li><li class="dialogue">Ahhhh....</li>
+			<li class="id">(Wizard180)</li><li class="dialogue">FORCE BOLT!		</li>
+
+		<li class="action">MaxillaTalk</li>
+
+			<li class="character"><b>Maxilla</b></li>
+			<li class="id">(Maxilla19)</li><li class="dialogue">I've already SENT a crew to repair it</li>
+			<li class="id">(Maxilla20)</li><li class="dialogue">No! We don't need to tell the Xenonians, I don't want them on my coccyx</li>
+			<li class="id">(Maxilla21)</li><li class="dialogue">Have enough on my plate with the council</li>
+			<li class="id">(Maxilla22)</li><li class="dialogue">They're planning something, probably some anti-trust litigation, real pain in my thorasic</li>
+			<li class="id">(Maxilla23)</li><li class="dialogue">In fact, get Michael for me</li>
+			<li class="id">(Maxilla24)</li><li class="dialogue">No, Sandra, not my step-son, why would I want to talk to him?</li>
+			<li class="id">(Maxilla25)</li><li class="dialogue">Michael Simmonds. My LAWYER. That's right</li>
+
+		<li class="action">WizardClickHotspotFloor</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard181)</li><li class="dialogue">How we getting out of this one?</li>
+
+		<li class="action">PrinceClickHotspotFloor</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince169)</li><li class="dialogue">We have to get free!</li>
+
+		<li class="action">PrinceClickHotspotSacks</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince170)</li><li class="dialogue">I can't move!</li>
+
+		<li class="action">WizardClickHotspotSacks</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard182)</li><li class="dialogue">This thing's kind of cosy really</li>
+
+		<li class="action">OnUseInvHotspotSacks</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard183)</li><li class="dialogue">Aghh, it's tougher than the perineum of a razor spiked urchin beast</li>
+
+	<li class="sceneheader">Character- Prince</li>
+
+
+		<li class="action">WizardClick</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard184)</li><li class="dialogue">So what's your next move, your pudendal majesty?</li>
+
+		<li class="action">Ask for help talking to Doorian</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince171)</li><li class="dialogue">We should figure out why there was a distress call</li>
+
+		<li class="action">Ask for help using to hyperdrive</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince172)</li><li class="dialogue">I think we should make a visit to planet Lobos</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard185)</li><li class="dialogue">And how should we do that?</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince173)</li><li class="dialogue">You're the one with tippy topPY spells for that kinda thing</li>
+
+		<li class="action">Ask for help getting & using doorbell on gate</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince174)</li><li class="dialogue">Try getting this gate open I say</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard186)</li><li class="dialogue">Time to weave a little more of the old dirty magic?</li>
+
+		<li class="action">Ask for help using doorbell on doorian, and with spew puzzle		</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince175)</li><li class="dialogue">Maybe this open spell can come in handy elsewhere</li>
+
+	<li class="sceneheader">Character- Wizard</li>
+
+
+		<li class="action">PrinceClick</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince176)</li><li class="dialogue">Any idea what we should do Maldrek?</li>
+
+		<li class="action">Ask for help healing guy & talking to doorian</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard187)</li><li class="dialogue">Leave me alone and bug the natives, find out what they want</li>
+
+		<li class="action">Ask for help using to hyperdrive</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard188)</li><li class="dialogue">If I had my hyperdrive charged we could visit Lobos</li>
+			<li class="id">(Wizard189)</li><li class="dialogue">I've probably got some spells that can help out</li>
+
+		<li class="action">Ask for help getting & using doorbell on gate</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard190)</li><li class="dialogue">Well, getting into the monstrous skull castle might be one idea</li>
+
+		<li class="action">Ask for help using doorbell on doorian, and with spew puzzle		</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard191)</li><li class="dialogue">I reckon i can get this Maria broad to spill her guts</li>
+			<li class="id">(Wizard192)</li><li class="dialogue">Literally, that is</li>
+			<li class="id">(Wizard193)</li><li class="dialogue">Then we make her let us in the fortress</li>
+
+	<li class="sceneheader">Item- Chicken</li>
+
+
+		<li class="action">OnUseInvInventory</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard194)</li><li class="dialogue">Schrlp cmncgh Hrmmmmm</li>
+			<li class="id">(Wizard195)</li><li class="dialogue">OOooh, that's some goooood "Chicken"</li>
+			<li class="id">(Wizard196)</li><li class="dialogue">Grllp schlppp mwaah!</li>
+			<li class="id">(Wizard197)</li><li class="dialogue">Aaaaah!</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince177)</li><li class="dialogue">What's in that stuff anyway</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard198)</li><li class="dialogue">Eh, who could say?</li>
+			<li class="id">(Wizard199)</li><li class="dialogue">But it charges up my hyperdrive like nothin' else</li>
+
+	<li class="sceneheader">Global Script</li>
+
+
+		<li class="action">UnhandledInteract</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince178)</li><li class="dialogue">I don't quite know what to make of that</li>
+
+		<li class="action">UnhandledLookAt</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard200)</li><li class="dialogue">Ah, it is what it is</li>
+
+		<li class="action">UnhandledUseInvInv</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince179)</li><li class="dialogue">I can't use those together</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard201)</li><li class="dialogue">That won't work!</li>
+
+		<li class="action">Try using things when in meatsack</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard202)</li><li class="dialogue">I can't phleppin' move</li>
+			<li class="id">(Wizard203)</li><li class="dialogue">I'm stuck by Gunder!</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince180)</li><li class="dialogue">My hands are trapped</li>
+			<li class="id">(Prince181)</li><li class="dialogue">No use, I can't move my arms</li>
+
+		<li class="action">Levitate spell</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince182)</li><li class="dialogue">LEVITATE!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard204)</li><li class="dialogue">Yeah, real impressive</li>
+			<li class="id">(Wizard205)</li><li class="dialogue">I think that was your best one yet</li>
+
+		<li class="action">Punch spell</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince183)</li><li class="dialogue">I could never use my powers on another living being</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard206)</li><li class="dialogue">You punched that girl scout in the guts that time</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince184)</li><li class="dialogue">You told me she was choking</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard207)</li><li class="dialogue">Well, she might have been			</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince185)</li><li class="dialogue">FANTASTICAL FIST!</li>
+
+		<li class="action">Charm spell- Princes's complements and pickup lines</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince186)</li><li class="dialogue">I like your neck, you have a good neck</li>
+			<li class="id">(Prince187)</li><li class="dialogue">Is heaven missing an angel?</li>
+			<li class="id">(Prince188)</li><li class="dialogue">It's handy that I have my library card</li>
+			<li class="id">(Prince189)</li><li class="dialogue">Because I'm checking you out</li>
+			<li class="id">(Prince190)</li><li class="dialogue">I commend the fact that you have working elbows</li>
+			<li class="id">(Prince191)</li><li class="dialogue">I don't have any raisins...</li>
+			<li class="id">(Prince192)</li><li class="dialogue">But I sure would like a date</li>
+			<li class="id">(Prince193)</li><li class="dialogue">Your head reminds me of a watermelon </li>
+			<li class="id">(Prince194)</li><li class="dialogue">It was very delicious by the way... The watermelon that is</li>
+			<li class="id">(Prince195)</li><li class="dialogue">Excuse me. I think you have something in your eye</li>
+			<li class="id">(Prince196)</li><li class="dialogue">Oh, no, it's just a sparkle</li>
+			<li class="id">(Prince197)</li><li class="dialogue">Remember me? </li>
+			<li class="id">(Prince198)</li><li class="dialogue">Oh, that's right, I've met you only in my dreams</li>
+			<li class="id">(Prince199)</li><li class="dialogue">I was wondering if you had an extra heart</li>
+			<li class="id">(Prince200)</li><li class="dialogue">Because mine was just stolen</li>
+			<li class="id">(Prince201)</li><li class="dialogue">Are you a camera? </li>
+			<li class="id">(Prince202)</li><li class="dialogue">Because every time I look at you, I smile!</li>
+			<li class="id">(Prince203)</li><li class="dialogue">If you were a phaser, you'd be set to stun</li>
+			<li class="id">(Prince204)</li><li class="dialogue">Your face reminds me of a pet dog I liked very much</li>
+			<li class="id">(Prince205)</li><li class="dialogue">Very nice bone structure, I am sure your skeleton would be quite good for medical education</li>
+			<li class="id">(Prince206)</li><li class="dialogue"> I bet you can lift real heavy things and put them back down again</li>
+
+		<li class="action"> Responses to Prince's pickup lines (All seperate)</li>
+
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian47)</li><li class="dialogue">That's funny, you're so FUNNY!</li>
+			<li class="id">(Doorian48)</li><li class="dialogue">Stop it you! You'll swell my frames!</li>
+			<li class="id">(Doorian49)</li><li class="dialogue">Flatter me all you want, it's one door per person!		</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria34)</li><li class="dialogue">What are you trying to say?</li>
+			<li class="id">(Maria35)</li><li class="dialogue">Is this guy kiddin' or what?</li>
+			<li class="id">(Maria36)</li><li class="dialogue">You sound like my big brother Salvio</li>
+			<li class="id">(Maria37)</li><li class="dialogue">Don't make me start bustin' heads</li>
+			<li class="id">(Maria38)</li><li class="dialogue">If you're trying to make me puke, you're getting there</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard208)</li><li class="dialogue">Save it for the broads</li>
+			<li class="id">(Wizard209)</li><li class="dialogue">Lets just stay friends</li>
+			<li class="character"><b>Flat</b></li>
+			<li class="id">(Flat21)</li><li class="dialogue">Aww, thanks, eh!</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard210)</li><li class="dialogue">Bit late for that</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant47)</li><li class="dialogue">If you're angling for a discount, you'll be disappointed </li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard211)</li><li class="dialogue">Stow it, she ain't listenin'</li>
+
+		<li class="action">Wiz responds to prince charm spell</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard212)</li><li class="dialogue">Have those ever worked?		</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince207)</li><li class="dialogue">Not yet</li>
+
+		<li class="action">Wiz responds to prince charm spell 2</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard213)</li><li class="dialogue">Where you getting these anyway?	</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince208)</li><li class="dialogue">I got them from the book you gave me</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard214)</li><li class="dialogue">That one's garbage, I got a great new one on hypnosis</li>
+
+		<li class="action">Wizard shoots gun</li>
+
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince209)</li><li class="dialogue">Maldrek!</li>
+			<li class="id">(Prince210)</li><li class="dialogue">Remember out oath		</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard215)</li><li class="dialogue">What? First do no harm?</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince211)</li><li class="dialogue">That's it</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard216)</li><li class="dialogue">Well, I did do that first. Wasn't a fan   </li>
+			<li class="id">(Wizard217)</li><li class="dialogue">Fine		</li>
+			<li class="id">(Wizard218)</li><li class="dialogue">FORCE BOLT!</li>
+
+		<li class="action">Mesmer spell (holds gun on person)</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard219)</li><li class="dialogue">MESMER!</li>
+			<li class="id">(Wizard220)</li><li class="dialogue">Alright buddy, don't try anything</li>
+			<li class="id">(Wizard221)</li><li class="dialogue">Hold it right there</li>
+			<li class="id">(Wizard222)</li><li class="dialogue">No sudden moves dirt-bag</li>
+
+		<li class="action">Responses to Wizard pulling out gun</li>
+
+			<li class="character"><b>Doorian</b></li>
+			<li class="id">(Doorian50)</li><li class="dialogue">Ooh! Take me prisoner! Prisons have the most interesting doors you know</li>
+			<li class="character"><b>Maria</b></li>
+			<li class="id">(Maria39)</li><li class="dialogue">I ain't scared of you</li>
+			<li class="id">(Maria40)</li><li class="dialogue">I'll shove that piece so far up your backside, you won't be able to pick your nose without it goin' off</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince212)</li><li class="dialogue">I'm your friend, Maldrek. You only have to ask</li>
+			<li class="character"><b>Merchant</b></li>
+			<li class="id">(Merchant48)</li><li class="dialogue">Shoot if you want, ain't gonna do you no good</li>
+			<li class="id">(Merchant49)</li><li class="dialogue">Got a stockpile of healing potions back here</li>
+
+		<li class="action">use hypderdrive</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard223)</li><li class="dialogue">I ain't bending time and space just to travel there</li>
+
+		<li class="action">use eat</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard224)</li><li class="dialogue">Eh, I ain't hungry enough</li>
+
+		<li class="action">use steal</li>
+
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard225)</li><li class="dialogue">Don't think they have anything worth pinching</li>
+			<li class="id">(Wizard226)</li><li class="dialogue">I don't need to pinch that</li>
+			<li class="id">(Wizard227)</li><li class="dialogue">Don't need that to blow chunks everywhere</li>
+			<li class="character"><b>Prince</b></li>
+			<li class="id">(Prince213)</li><li class="dialogue">I don't think I should lift that with my mind</li>
+			<li class="id">(Prince214)</li><li class="dialogue">Nothing opened</li>
+			<li class="id">(Prince215)</li><li class="dialogue">Umm... I'm not sure about that</li>
+			<li class="id">(Prince216)</li><li class="dialogue">I... don't think so</li>
+			<li class="character"><b>Wizard</b></li>
+			<li class="id">(Wizard228)</li><li class="dialogue">Idiot, that won't work</li>
+			<li class="id">(Wizard229)</li><li class="dialogue">That makes no sense</li>
+</ul></code></body></html>
